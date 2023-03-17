@@ -1,0 +1,194 @@
+/************************   header       ******************************/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1vw;
+    align-items: center;
+    background-color: rgba(48,35,30,1);
+    color: rgba(254,254,254,0.5);
+    text-decoration: none;
+}
+
+.header {
+    color : rgba(254,254,254,0.5)
+}
+
+
+/******************************************* Layout Navbar Styling *********************************/
+.navbar {
+  background-color: rgba(48, 35, 30, 0.31);
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  /*opacity: 50%; */
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.navbar a {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar a :hover{
+    color: #eb7160;
+}
+.logo {
+  margin-right: auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2vw;
+}
+
+.contact {
+  text-align: right;
+  font-family: Poppins;
+  text-decoration: none;
+  outline: none !important;
+  transition: all 400ms;
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.085em;
+  white-space: nowrap;
+  background: #eb7160;
+  margin: 5px;
+  position: relative;
+  z-index: 1;
+  padding: 5px 10px;
+  font-size: 10px;
+  color: #eb7160;
+  background-color: transparent;
+  border: 1px solid #eb7160 !important;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  margin-left: auto;
+}
+
+.contact:hover {
+    color: white;
+    background-color: #eb7160;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  /* background-color: #4CAF50; */
+  color: white;
+  /*padding: 16px;*/
+  font-size: large;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+top:6.2vh;
+  position: absolute;
+  background-color: rgba(48, 35, 30, 1);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: #eb7160;
+  margin-left: 0.5vw;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: #eb7160;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************* FOOTER *******************************/
+
+.newsLetter {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-color: blueviolet;
+}
+
+.letterform{
+    width: calc(100% - 145px);
+    float: left;
+    position: relative;
+    /*z-index: 1;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
