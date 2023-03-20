@@ -1,10 +1,12 @@
 import {
-  RemixBrowser,
+  RemixBrowser
+} from "/build/_shared/chunk-N77MWZDK.js";
+import {
   __commonJS,
   __toESM,
   require_jsx_dev_runtime,
   require_react
-} from "/build/_shared/chunk-4MH4CXYC.js";
+} from "/build/_shared/chunk-EETRBLDB.js";
 
 // node_modules/scheduler/cjs/scheduler.development.js
 var require_scheduler_development = __commonJS({
@@ -21103,4 +21105,4 @@ if (typeof requestIdleCallback === "function") {
 } else {
   setTimeout(hydrate, 1);
 }
-//# sourceMappingURL=/build/entry.client-XD33HTI7.js.map
+//# sourceMappingURL=/build/entry.client-TNPL4Y4H.js.map

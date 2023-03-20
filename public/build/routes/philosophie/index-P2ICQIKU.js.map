@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../app/routes/philosophie/index.jsx"],
+  "sourcesContent": ["import React from 'react'\r\n\r\nfunction Philosophie() {\r\n  return (\r\n    <div>Philosophie</div>\r\n  )\r\n}\r\n\r\nexport default Philosophie"],
+  "mappings": ";;;;;;;AAAA,mBAAkB;AAId;AAFJ,SAAS,cAAc;AACrB,SACE,mDAAC,SAAI,2BAAL;AAAA;AAAA;AAAA;AAAA,SAAgB;AAEpB;AAEA,IAAO,sBAAQ;",
+  "names": []
+}

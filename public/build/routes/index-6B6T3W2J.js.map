@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/index.jsx"],
-  "sourcesContent": ["import { Link, Outlet } from \"@remix-run/react\";\n\nexport default function Home() {\n  return (\n    <>\n    <h1> homePage </h1>\n    </>\n  );\n}\n"],
-  "mappings": ";;;;;;AAII;AAFW,SAAR,OAAwB;AAC7B,SACE,sFACA,6DAAC,QAAG,0BAAJ;AAAA;AAAA;AAAA;AAAA,SAAc,KADd;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
-  "names": []
-}

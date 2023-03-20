@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.jsx"],
+  "sourcesContent": ["import Slider from \"./Slider\";\n\nexport default function Home() {\n  const images = [\n    \"https://www.degandpartners.com/wp-content/uploads/2018/09/slide2.jpg\",\n    \"https://www.degandpartners.com/wp-content/uploads/2018/09/slide0.jpg\",\n    \"https://www.degandpartners.com/wp-content/uploads/2018/09/slide.png\",\n  ];\n  return (\n    <>\n    <Slider images={images}/>\n    <h1 className=\"homepageTitle\"> homePage </h1>\n    </>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;AASI;AAPW,SAAR,OAAwB;AAC7B,QAAM,SAAS;AAAA,IACb;AAAA,IACA;AAAA,IACA;AAAA,EACF;AACA,SACE,sFACA;AAAA,uDAAC,kBAAO,UAAR;AAAA;AAAA;AAAA;AAAA,WAAuB;AAAA,IACvB,mDAAC,QAAG,WAAU,iBAAgB,0BAA9B;AAAA;AAAA;AAAA;AAAA,WAAwC;AAAA,OAFxC;AAAA;AAAA;AAAA;AAAA,SAGA;AAEJ;",
+  "names": []
+}
