@@ -18,7 +18,9 @@
     "isbot": "^3.6.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-social-icons": "^5.15.0"
+    "react-slick": "^0.29.0",
+    "react-social-icons": "^5.15.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.14.2",

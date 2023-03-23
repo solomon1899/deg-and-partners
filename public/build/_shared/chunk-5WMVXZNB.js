@@ -1,9 +1,11 @@
 import {
+  require_react
+} from "/build/_shared/chunk-FN3KWL4V.js";
+import {
   __commonJS,
   __esm,
-  __toESM,
-  require_react
-} from "/build/_shared/chunk-EETRBLDB.js";
+  __toESM
+} from "/build/_shared/chunk-4IYZMDEG.js";
 
 // node_modules/@remix-run/router/dist/router.js
 function _extends() {
@@ -5311,4 +5313,4 @@ export {
   RemixBrowser,
   ScrollRestoration2 as ScrollRestoration
 };
-//# sourceMappingURL=/build/_shared/chunk-N77MWZDK.js.map
+//# sourceMappingURL=/build/_shared/chunk-5WMVXZNB.js.map

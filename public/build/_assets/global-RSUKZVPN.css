@@ -1,50 +1,42 @@
+/* styles/global.css */
 body {
   font-family: Oxygen;
 }
-
 @font-face {
-  font-family: "Oxygen";
-  font-weight: normal;
+  font-family: Oxygen;
+  font-weight: 400;
   font-style: normal;
 }
-
-/************************   header       ******************************/
 .header {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   gap: 1vw;
   align-items: center;
-  background-color: rgba(48, 35, 30, 1);
-  color: rgba(254, 254, 254, 0.5);
+  background-color: #30231e;
+  color: #fefefe80;
   text-decoration: none;
 }
-
 .header {
-  color: rgba(254, 254, 254, 0.5);
+  color: #fefefe80;
 }
-
-/******************************************* Layout Navbar Styling *********************************/
 .navbar {
-  background-color: rgba(48, 35, 30, 0.31);
+  background-color: #30231e4f;
   display: flex;
   flex-direction: row;
   height: 10vh;
-  /*opacity: 50%; */
   align-items: center;
   justify-content: space-between;
   font-size: larger;
   position: fixed;
   width: 100%;
 }
-
 .logo {
   height: 50px;
   max-height: 10vh;
   margin-right: auto;
   margin-left: 1.5vw;
 }
-
 .nav {
   display: flex;
   flex-direction: row;
@@ -54,9 +46,8 @@ body {
   margin: 0;
   height: 100%;
 }
-
 .nav a {
-  color: white;
+  color: #fff;
   cursor: pointer;
   height: 100%;
   display: flex;
@@ -70,135 +61,99 @@ body {
   font-family: Poppins;
   text-decoration: none;
   outline: none !important;
-  transition: all 400ms;
+  transition: all .4s;
   display: inline-block;
   vertical-align: top;
   font-weight: 600;
   line-height: 20px;
   text-transform: uppercase;
-  letter-spacing: 0.085em;
+  letter-spacing: .085em;
   white-space: nowrap;
   background: #eb7160;
-  margin: 5px;
   position: relative;
   z-index: 1;
-  padding: 5px 10px;
+  padding: 4px 10px;
   font-size: 10px;
   color: #eb7160;
   background-color: transparent;
   border: 1px solid #eb7160 !important;
-  padding-bottom: 4px;
-  padding-top: 4px;
-  margin-left: auto;
-  margin-left: auto;
+  margin: 5px 5px 5px auto;
   margin-right: 1.5vw;
 }
-
 .contact:hover {
-  color: white;
+  color: #fff;
   background-color: #eb7160;
 }
-
-/* Style The Dropdown Button */
 .dropbtn {
-  /* background-color: #4CAF50; */
-  color: white;
-  /*padding: 16px;*/
+  color: #fff;
   font-size: large;
   border: none;
   cursor: pointer;
   margin: 0;
   height: 100%;
-  transition: 0.5s;
+  transition: .5s;
 }
-
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
   height: 100%;
 }
-
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  /* top: 6.2vh; */
   position: absolute;
-  background-color: rgba(48, 35, 30, 1);
+  background-color: #30231e;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px #0003;
   z-index: 1;
-  transition: height 0.3s ease-in-out;
-  transition-delay: 0.1s;
+  transition: height .3s ease-in-out;
+  transition-delay: .1s;
   width: 20vw;
-  font-size: 0.9em;
+  font-size: .9em;
 }
-
-/* Links inside the dropdown */
 .dropdown-content a {
-  color: white;
+  color: #fff;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  transition: 0.5s;
+  transition: .5s;
 }
-
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   color: #eb7160;
-  margin-left: 0.5vw;
-  transition: 0.5s;
+  margin-left: .5vw;
+  transition: .5s;
 }
-
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   color: #eb7160;
 }
-
-/************************* FOOTER *******************************/
-
 .allfooter {
   display: flex;
   flex-direction: column;
 }
-
 .newsLetter {
   display: flex;
   flex-direction: row;
   height: 20vh;
   width: auto;
-
   background-color: #32231d;
   align-items: center;
   justify-content: space-evenly;
   font-size: xx-large;
 }
-
 .letterform {
-  /*width: calc(100% - 145px);*/
   width: max-content;
   float: left;
   position: relative;
   height: 7vh;
-  /*z-index: 1;*/
 }
-
 .sabonner {
   width: 145px;
-  background: -webkit-linear-gradient(
-    left,
-    #fea860 0%,
-    #eb7160 50%,
-    #fea860 100%
-  );
+  background: -webkit-linear-gradient(left, #fea860 0%, #eb7160 50%, #fea860 100%);
   background-size: 300%, 1px;
   background-position: 0%;
-  color: white;
+  color: #fff;
   border-width: 0;
   border-color: #eb7160;
   font-family: Poppins;
@@ -206,23 +161,17 @@ body {
   height: -webkit-fill-available;
   cursor: pointer;
 }
-
 .inscrivezvous {
-  color: white;
+  color: #fff;
   font-weight: 800;
   font-family: Poppins;
 }
-
 .footerinput {
   height: -webkit-fill-available;
   width: 30vw;
-  /* background-color: #32231d78; */
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #ffffff1a;
   color: #7a7a7a;
 }
-
-/******************************* Footer info ************************************/
-
 .footer {
   height: 360px;
   width: auto;
@@ -232,7 +181,6 @@ body {
   margin-top: 1px;
   justify-content: space-evenly;
 }
-
 .first {
   display: flex;
   flex-direction: column;
@@ -240,7 +188,6 @@ body {
   align-content: center;
   justify-content: flex-start;
   align-items: center;
-  /* margin-left: 15px; */
   margin-top: 70px;
   gap: 40px;
 }
@@ -255,17 +202,7 @@ body {
   display: flex;
   margin-left: -80px;
 }
-.second {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: flex-start;
-  /* margin-left: 15px; */
-  color: white;
-}
-
+.second,
 .third {
   display: flex;
   flex-direction: column;
@@ -273,59 +210,45 @@ body {
   align-content: center;
   justify-content: center;
   align-items: flex-start;
-  /* margin-left: 15px; */
-  color: white;
+  color: #fff;
 }
-
 .fourth {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: center;
-  /* align-items: flex-start; */
-  /* margin-left: 15px; */
   gap: 1.5vh;
   font-size: 19px;
 }
-
 .footerlien {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
-
 .footerlien:hover {
   color: #eb7160;
 }
-
 .copyright {
   color: #7d7d7d;
   background-color: #32231d;
   text-align: center;
   margin-top: 1px;
 }
-
-/********************************* Page d'Accueil*****************************************/
-
 .homepageTitle {
-  color: blueviolet;
+  color: #8a2be2;
 }
-
-/******************************* Slider Flexbox *******************************************/
-
 .carouselImage {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #0003;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 90vh;
-  transition: background-image 0.5s ease-in-out;
+  transition: background-image .5s ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .carousel-button {
   width: 40px;
   height: 2px;
@@ -335,34 +258,29 @@ body {
   background-color: #ffffff80;
   cursor: pointer;
   outline: none;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
-
 .carousel-button:focus,
 .carousel-button.active {
-  background-color: white;
+  background-color: #fff;
 }
-
 .carouselButtons {
   display: flex;
   gap: 2vw;
 }
-
 .carouselTitle {
-  color: white;
+  color: #fff;
   font-size: 3rem;
   text-align: center;
   text-shadow: 0px 0px 10px black;
-  transform: scale(0.9);
-  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
-  opacity: 0; /* add initial opacity of 0 */
+  transform: scale(.9);
+  transition: transform .5s ease-out, opacity .5s ease-out;
+  opacity: 0;
 }
-
 .carouselTitle.visible {
   transform: scale(1);
-  opacity: 1; /* change opacity to 1 when visible */
+  opacity: 1;
 }
-
 .carouselText {
   min-width: 803px;
   max-width: 803px;
@@ -370,24 +288,21 @@ body {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
-  color: rgb(255, 255, 255);
+  color: #fff;
   letter-spacing: 0px;
   font-family: Oxygen;
   visibility: inherit;
   transition: none 0s ease 0s;
   text-align: center;
   border-width: 0px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   min-height: 62px;
   max-height: 62px;
   opacity: 1;
   transform-style: preserve-3d;
   transform-origin: 50% 50% 0px;
 }
-
-/*************************************Introduction ************************************/
-
 .intro-container {
   display: flex;
   flex-direction: row;
@@ -398,7 +313,6 @@ body {
   align-content: center;
   align-items: center;
 }
-
 .intro-profile {
   display: flex;
   flex-direction: column;
@@ -406,13 +320,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .intro-paragraphe {
   width: 40vw;
 }
-
-/***************************************** Formules *****************************/
-
 .numbers {
   display: flex;
   flex-direction: row;
@@ -424,34 +334,18 @@ body {
   align-items: center;
   color: #eb7160;
   font-size: 36px;
-  line-height: 0.7;
+  line-height: .7;
 }
-
 .numbers-item {
   text-align: center;
 }
 .number-title {
   font-weight: 400;
-  color: #888888;
+  color: #888;
   font-size: 18px;
   line-height: 1.2;
   text-align: center;
 }
-
-/*************** Parallax**/
-
-/* .parallax-container {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
-  height: 50vh;
-  background-image: url("https://www.degandpartners.com/wp-content/uploads/2018/09/combien-ca-coute.jpg");
-  font-family: Poppins;
-  color: white;
-} */
-
 .parallax-container {
   display: flex;
   align-items: center;
@@ -459,14 +353,13 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 50vh;
-  background-image: url("https://www.degandpartners.com/wp-content/uploads/2018/09/combien-ca-coute.jpg");
+  background-image: url(https://www.degandpartners.com/wp-content/uploads/2018/09/combien-ca-coute.jpg);
   background-size: cover;
   background-position: center;
   font-family: Poppins;
-  color: white;
+  color: #fff;
 }
-
-.parallax-container::before {
+.parallax-container:before {
   content: "";
   position: absolute;
   top: 0;
@@ -474,12 +367,11 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("https://www.degandpartners.com/wp-content/uploads/2018/09/combien-ca-coute.jpg");
+  background-image: url(https://www.degandpartners.com/wp-content/uploads/2018/09/combien-ca-coute.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 0.5;
+  opacity: .5;
 }
-
 @media (min-width: 768px) {
   .parallax-container {
     background-attachment: fixed;
@@ -487,7 +379,6 @@ body {
     background-repeat: no-repeat;
   }
 }
-
 @media (max-width: 767px) {
   .parallax-container {
     background-attachment: scroll;
@@ -495,7 +386,6 @@ body {
     background-repeat: no-repeat;
   }
 }
-
 .parallax-container button {
   height: 7vh;
   width: 15vw;
@@ -507,67 +397,51 @@ body {
   margin-top: 3vh;
   background: linear-gradient(90deg, #fea860, #eb7160);
   cursor: pointer;
-  transition: background 0.3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
-
 .parallax-container button:hover {
   background: linear-gradient(90deg, #eb7160, #fea860);
   background-color: #f93c20;
 }
-
-/*****************************************Blog Styling*********************************/
-
 .blogs-container {
   height: 80vh;
 }
-
 .blog-header {
   display: flex;
   justify-content: space-between;
   padding-inline: 4vw;
   padding-top: 3vh;
 }
-
 .blog-header a {
-  border-style: solid;
-  border-width: 1px;
   color: #282828;
-  background-color: #ffffff;
+  background-color: #fff;
   border-color: #282828;
   padding: 12px 32px;
-
   display: inline-block;
   vertical-align: top;
   margin-bottom: 20px;
   font-size: 13px;
   font-weight: 600;
   line-height: 20px;
-
   border-width: 1px;
   border-style: solid;
   text-transform: uppercase;
-  letter-spacing: 0.085em;
+  letter-spacing: .085em;
   white-space: nowrap;
-  transition: 0.5s;
+  transition: .5s;
 }
-
 .blog-header a:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #282828;
 }
-
-/*************************************** moving items**************************************/
-
 .movingItemsCarousel {
   padding-inline: 3vw;
   height: 55vh;
   padding-top: 9vh;
 }
-
 .movingItemsCarousel h1 {
   text-align: center;
 }
-
 .movingItem {
   display: flex !important;
   flex-direction: column;

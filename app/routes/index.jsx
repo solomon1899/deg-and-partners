@@ -1,15 +1,16 @@
-import Slider from "./Slider";
+import Blog from "./Blog";
+import Formules from "./Formules";
+
+import Introduction from "./introduction";
+import MyCarousel from "./MyCarousel";
 
 export default function Home() {
-  const images = [
-    "https://www.degandpartners.com/wp-content/uploads/2018/09/slide2.jpg",
-    "https://www.degandpartners.com/wp-content/uploads/2018/09/slide0.jpg",
-    "https://www.degandpartners.com/wp-content/uploads/2018/09/slide.png",
-  ];
   return (
     <>
-    <Slider images={images}/>
-    <h1 className="homepageTitle"> homePage </h1>
+      <MyCarousel />
+      <Introduction />
+      <Formules />
+      <Blog />
     </>
   );
 }

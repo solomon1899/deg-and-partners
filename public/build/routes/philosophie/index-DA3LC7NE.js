@@ -1,8 +1,10 @@
 import {
-  __toESM,
   require_jsx_dev_runtime,
   require_react
-} from "/build/_shared/chunk-EETRBLDB.js";
+} from "/build/_shared/chunk-FN3KWL4V.js";
+import {
+  __toESM
+} from "/build/_shared/chunk-4IYZMDEG.js";
 
 // app/routes/philosophie/index.jsx
 var import_react = __toESM(require_react());
@@ -18,4 +20,4 @@ var philosophie_default = Philosophie;
 export {
   philosophie_default as default
 };
-//# sourceMappingURL=/build/routes/philosophie/index-P2ICQIKU.js.map
+//# sourceMappingURL=/build/routes/philosophie/index-DA3LC7NE.js.map

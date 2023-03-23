@@ -8,6 +8,9 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import globalStylesUrl from "../styles/global.css";
+import slickcss from "slick-carousel/slick/slick.css";
+import slicktheme from "slick-carousel/slick/slick-theme.css";
+// import bootCss from 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
@@ -18,7 +21,17 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { SocialIcon } from "react-social-icons";
 
-export const links = () => [{ rel: "stylesheet", href: globalStylesUrl }];
+// export const links = () => [{ rel: "stylesheet", href: globalStylesUrl  } , { rel: "stylesheet", href: bootCss  }];
+export const links = () => [
+  { rel: "stylesheet", href: globalStylesUrl },
+  { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Oxygen" },
+  {
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css?family=Poppins",
+  },
+  { rel: "stylesheet", href: slickcss  },
+  { rel: "stylesheet", href: slicktheme  }
+];
 
 export const meta = () => ({
   charset: "utf-8",
@@ -28,8 +41,6 @@ export const meta = () => ({
 });
 
 export default function App() {
-  const titlePage =
-    "Cabinet Expert-comptable Belgique - Deg & Partner _ comptabilité, gestion & fiscalité";
   return (
     <Document>
       <Links />
@@ -194,15 +205,16 @@ function Footer() {
             </p>
           </div>
           <div className="third">
-            <h3 style={{ color: "white" , fontWeight : 600}}>Bureau de Liège</h3>
+            <h3 style={{ color: "white", fontWeight: 600 }}>Bureau de Liège</h3>
             <p>
-              <FontAwesomeIcon icon={faMapMarkerAlt} /> Quai Orban, 41 – 4020 Liège
+              <FontAwesomeIcon icon={faMapMarkerAlt} /> Quai Orban, 41 – 4020
+              Liège
             </p>
             <p>
               <FontAwesomeIcon icon={faEnvelope} /> info@degandpartners.com
             </p>
             <p>
-              <FontAwesomeIcon icon={faPhone} />  + 32 4 343 17 31
+              <FontAwesomeIcon icon={faPhone} /> + 32 4 343 17 31
             </p>
             <p>
               <FontAwesomeIcon icon={faFax} /> + 32 2 247 39 39
@@ -243,7 +255,15 @@ function Footer() {
         </footer>
       </div>
       <div className="copyright">
-        <p color="#7d7d7d">Copyright © 2021 - All Rights Reserved -  <a href="http://www.degandpartners.com/wp-content/uploads/2021/04/CONDITIONS-GENERALES-DE-PRESTATIONS.pdf" style={{ color : "white"}}>Conditions générales de prestations</a></p>
+        <p color="#7d7d7d">
+          Copyright © 2021 - All Rights Reserved -{" "}
+          <a
+            href="http://www.degandpartners.com/wp-content/uploads/2021/04/CONDITIONS-GENERALES-DE-PRESTATIONS.pdf"
+            style={{ color: "white" }}
+          >
+            Conditions générales de prestations
+          </a>
+        </p>
       </div>
     </div>
   );

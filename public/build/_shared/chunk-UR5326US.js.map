@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/Blog.jsx"],
+  "sourcesContent": ["import React from 'react'\r\n\r\nconst Blog = () => {\r\n  return (\r\n    <div className='blogs-container'>\r\n    <div className='blog-header'>\r\n        <h2>Notre Blog</h2> \r\n        <a href='/'>Voir Plus</a>\r\n    </div>\r\n    <div className='blogs'></div>\r\n        <div className='blog-item'>\r\n          \r\n            \r\n        </div>\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default Blog"],
+  "mappings": ";;;;;;;;;AAAA,mBAAkB;AAMV;AAJR,IAAM,OAAO,MAAM;AACjB,SACE,mDAAC,SAAI,WAAU,mBACf;AAAA,uDAAC,SAAI,WAAU,eACX;AAAA,yDAAC,QAAG,0BAAJ;AAAA;AAAA;AAAA;AAAA,aAAc;AAAA,MACd,mDAAC,OAAE,MAAK,KAAI,yBAAZ;AAAA;AAAA;AAAA;AAAA,aAAqB;AAAA,SAFzB;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,IACA,mDAAC,SAAI,WAAU,WAAf;AAAA;AAAA;AAAA;AAAA,WAAuB;AAAA,IACnB,mDAAC,SAAI,WAAU,eAAf;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,OATJ;AAAA;AAAA;AAAA;AAAA,SAUA;AAEJ;AAEA,IAAO,eAAQ;",
+  "names": []
+}

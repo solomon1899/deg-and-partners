@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.jsx"],
+  "sourcesContent": ["import Blog from \"./Blog\";\nimport Formules from \"./Formules\";\n\nimport Introduction from \"./introduction\";\nimport MyCarousel from \"./MyCarousel\";\n\nexport default function Home() {\n  return (\n    <>\n      <MyCarousel />\n      <Introduction />\n      <Formules />\n      <Blog />\n    </>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAQI;AAFW,SAAR,OAAwB;AAC7B,SACE,sFACE;AAAA,uDAAC,wBAAD;AAAA;AAAA;AAAA;AAAA,WAAY;AAAA,IACZ,mDAAC,0BAAD;AAAA;AAAA;AAAA;AAAA,WAAc;AAAA,IACd,mDAAC,sBAAD;AAAA;AAAA;AAAA;AAAA,WAAU;AAAA,IACV,mDAAC,kBAAD;AAAA;AAAA;AAAA;AAAA,WAAM;AAAA,OAJR;AAAA;AAAA;AAAA;AAAA,SAKA;AAEJ;",
+  "names": []
+}
