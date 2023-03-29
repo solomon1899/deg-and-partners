@@ -5,7 +5,8 @@ const Introduction = () => {
     <div className="intro-container">
       <div className="intro-profile">
         <img src="https://www.degandpartners.com/wp-content/uploads/2021/03/EM.png" />
-        <span style={{fontWeight : 'bold' , textAlign : 'center'}}>Emmanuel Degrève</span>
+        <span style={{fontWeight : 'bold' , textAlign : 'center'}}>Emmanuel Degrève</span> 
+        <span style={{fontSize : 15}}>Fondateur & CEO</span>
       </div>
       <div className="intro-paragraphe">
         <h2 style={{fontWeight : 600 , fontSize : 36 }}>Qui sommes nous</h2>

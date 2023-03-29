@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/OneSlider.jsx"],
+  "sourcesContent": ["import React from 'react'\r\n\r\nconst OneSlider = () => {\r\n  return (\r\n    <div>\r\n\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default OneSlider\r\n"],
+  "mappings": ";;;;;;;;;AAAA,mBAAkB;AAId;AAFJ,IAAM,YAAY,MAAM;AACtB,SACE,mDAAC,WAAD;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;AAEA,IAAO,oBAAQ;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/MultipleSlider.jsx"],
+  "sourcesContent": ["import React from 'react'\r\nimport { SliderComp } from './nos-formules'\r\n\r\nconst MultipleSlider = () => {\r\n  return (\r\n    <div className='homepage-multiple-slider'>\r\n        <h2>Vous \u00EAtes :</h2>\r\n        <SliderComp />\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default MultipleSlider"],
+  "mappings": ";;;;;;;;;;;;AAAA,mBAAkB;AAMV;AAHR,IAAM,iBAAiB,MAAM;AAC3B,SACE,mDAAC,SAAI,WAAU,4BACX;AAAA,uDAAC,QAAG,8BAAJ;AAAA;AAAA;AAAA;AAAA,WAAe;AAAA,IACf,mDAAC,gBAAD;AAAA;AAAA;AAAA;AAAA,WAAY;AAAA,OAFhB;AAAA;AAAA;AAAA;AAAA,SAGA;AAEJ;AAEA,IAAO,yBAAQ;",
+  "names": []
+}

@@ -20,6 +20,7 @@ import {
   faFax,
 } from "@fortawesome/free-solid-svg-icons";
 import { SocialIcon } from "react-social-icons";
+import { useState , useEffect } from "react";
 
 // export const links = () => [{ rel: "stylesheet", href: globalStylesUrl  } , { rel: "stylesheet", href: bootCss  }];
 export const links = () => [
@@ -29,8 +30,8 @@ export const links = () => [
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css?family=Poppins",
   },
-  { rel: "stylesheet", href: slickcss  },
-  { rel: "stylesheet", href: slicktheme  }
+  { rel: "stylesheet", href: slickcss },
+  { rel: "stylesheet", href: slicktheme },
 ];
 
 export const meta = () => ({
@@ -68,9 +69,43 @@ function Document({ children }) {
 }
 
 function Layout({ children }) {
+  const [isHidden, setIsHidden] = useState(false);
+  const [lastScrollTop, setLastScrollTop] = useState(0);
+
+  useEffect(() => {
+    // Listen to the scroll event
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener on unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  function handleScroll() {
+    // Get the current scroll position
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    // Check the scroll direction
+    if (scrollTop > lastScrollTop) {
+      // Scrolling down, hide the navbar
+      setIsHidden(true);
+      setLastScrollTop(scrollTop);
+    } else {
+      // Scrolling up, show the navbar
+      setIsHidden(false);
+      setLastScrollTop(scrollTop);
+    }
+
+    // Update the last scroll position
+    setLastScrollTop(scrollTop);
+  }
+
+
   return (
     <>
       <Header />
+      <nav className={`navbar ${isHidden ? 'is-hidden' : ''}`}>
       <div className="navbar">
         <img
           className="logo"
@@ -78,9 +113,11 @@ function Layout({ children }) {
           alt="logo"
         />
         <ul className="nav">
-          <Link to="/">Accueil</Link>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            Accueil
+          </Link>
           <div className="dropdown">
-            <a className="dropbtn">Votre métier</a>
+            <a className="dropbtn">Votre métier ▿</a>
             <div className="dropdown-content">
               <a href="#">Vous etes artiste et creatif ?</a>
               <a href="#">Vous etes association culturelle ?</a>
@@ -93,20 +130,23 @@ function Layout({ children }) {
           </div>
 
           <div className="dropdown">
-            <a className="dropbtn">Qui sommes nous ?</a>
+            <a className="dropbtn">Qui sommes nous ? ▿</a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="#">Philosophie</a>
+              <a href="#">Structure</a>
+              <a href="#">Nos clients</a>
+              <a href="#">Equipe</a>
             </div>
           </div>
 
           <div className="dropdown">
-            <a className="dropbtn">Nos Services</a>
+            <a className="dropbtn">Nos Services ▿</a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="#">Comptabilité</a>
+              <a href="#">Fiscalité</a>
+              <a href="#">Gestion</a>
+              <a href="#">Social & droit</a>
+              <a href="#">Application DEG</a>
             </div>
           </div>
           <a>Nos formules</a>
@@ -115,6 +155,7 @@ function Layout({ children }) {
         </ul>
         <a className="contact">contactez nous</a>
       </div>
+      </nav>
       <div className="mainPage">{children}</div>
       <Footer />
     </>
@@ -129,7 +170,10 @@ function Header() {
         <FontAwesomeIcon icon={faMapMarkerAlt} /> Rue Waelhem,68 - 1030
         Bruxelles
       </p>
-      <a href="mailto:info@degandpartners.com">
+      <a
+        href="mailto:info@degandpartners.com"
+        style={{ textDecoration: "none", color: "inherit" }}
+      >
         {" "}
         <FontAwesomeIcon icon={faEnvelope} /> info@degandpartners.com
       </a>

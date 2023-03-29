@@ -19,12 +19,12 @@ var Formules = () => {
   (0, import_react.useEffect)(() => {
     const interval1 = setInterval(() => {
       if (count1 < number1) {
-        setCount1(count1 + 1);
+        setCount1(count1 + 2);
       }
     }, 50);
     const interval2 = setInterval(() => {
       if (count2 < number2) {
-        setCount2(count2 + 1);
+        setCount2(count2 + 5);
       }
     }, 50);
     const interval3 = setInterval(() => {
@@ -162,4 +162,4 @@ var Formules_default = Formules;
 export {
   Formules_default
 };
-//# sourceMappingURL=/build/_shared/chunk-OS66GRZY.js.map
+//# sourceMappingURL=/build/_shared/chunk-IBVZ3FAQ.js.map

@@ -13,11 +13,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 1vw;
+  gap: 2vw;
   align-items: center;
-  background-color: rgba(48, 35, 30, 1);
-  color: rgba(254, 254, 254, 0.5);
+  background-color: #30231e;
+  color: #fefefe80;
   text-decoration: none;
+  font-size: 12px;
+  margin-left: 0vw;
+  flex-wrap: wrap;
+  padding-left: 1vw;
+  height: 7vh;
 }
 
 .header {
@@ -36,6 +41,8 @@ body {
   font-size: larger;
   position: fixed;
   width: 100%;
+  font-size: 14px;
+  z-index: 1;
 }
 
 .logo {
@@ -61,6 +68,7 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
+  font-size: 14px;
 }
 .nav a :hover {
   color: #eb7160;
@@ -92,6 +100,7 @@ body {
   margin-left: auto;
   margin-left: auto;
   margin-right: 1.5vw;
+  cursor: pointer;
 }
 
 .contact:hover {
@@ -128,8 +137,8 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  transition: height 0.3s ease-in-out;
-  transition-delay: 0.1s;
+  transition: height 0.5s ease-in-out;
+  transition-delay: 0.5s;
   width: 20vw;
   font-size: 0.9em;
 }
@@ -160,6 +169,16 @@ body {
   color: #eb7160;
 }
 
+.navbar.is-hidden {
+  transform: translateY(-180%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar.is-kita {
+  transform: translateY(180%);
+  transition: transform 0.3s ease-in-out;
+}
+
 /************************* FOOTER *******************************/
 
 .allfooter {
@@ -170,12 +189,11 @@ body {
 .newsLetter {
   display: flex;
   flex-direction: row;
-  height: 20vh;
+  padding: 70px 66px;
   width: auto;
-
   background-color: #32231d;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-size: xx-large;
 }
 
@@ -190,12 +208,7 @@ body {
 
 .sabonner {
   width: 145px;
-  background: -webkit-linear-gradient(
-    left,
-    #fea860 0%,
-    #eb7160 50%,
-    #fea860 100%
-  );
+  background: linear-gradient(90deg, #fea860, #eb7160);
   background-size: 300%, 1px;
   background-position: 0%;
   color: white;
@@ -205,20 +218,30 @@ body {
   font-weight: 600;
   height: -webkit-fill-available;
   cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.sabonner :hover {
+  background: linear-gradient(90deg, #eb7160, #fea860);
+  background-color: #f93c20;
 }
 
 .inscrivezvous {
   color: white;
   font-weight: 800;
   font-family: Poppins;
+  font-size: 24px;
 }
 
 .footerinput {
   height: -webkit-fill-available;
   width: 30vw;
-  /* background-color: #32231d78; */
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #ffffff1a;
   color: #7a7a7a;
+  border: none;
+  padding: 6px 20px;
+  font-size: 18px;
+  font-family: Oxygen;
 }
 
 /******************************* Footer info ************************************/
@@ -231,6 +254,8 @@ body {
   flex-direction: row;
   margin-top: 1px;
   justify-content: space-evenly;
+  font-size: 15px;
+  color: #bdbdbd;
 }
 
 .first {
@@ -263,7 +288,11 @@ body {
   justify-content: center;
   align-items: flex-start;
   /* margin-left: 15px; */
-  color: white;
+  color: #bdbdbd;
+}
+
+.second p {
+  margin-top: 1.7vh;
 }
 
 .third {
@@ -274,7 +303,10 @@ body {
   justify-content: center;
   align-items: flex-start;
   /* margin-left: 15px; */
-  color: white;
+  color: #bdbdbd;
+}
+.third p {
+  margin-top: 1.7vh;
 }
 
 .fourth {
@@ -286,12 +318,13 @@ body {
   /* align-items: flex-start; */
   /* margin-left: 15px; */
   gap: 1.5vh;
-  font-size: 19px;
+  font-size: 15px;
 }
 
 .footerlien {
   color: white;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .footerlien:hover {
@@ -307,10 +340,6 @@ body {
 
 /********************************* Page d'Accueil*****************************************/
 
-.homepageTitle {
-  color: blueviolet;
-}
-
 /******************************* Slider Flexbox *******************************************/
 
 .carouselImage {
@@ -318,7 +347,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 90vh;
+  height: 92vh;
   transition: background-image 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
@@ -345,7 +374,7 @@ body {
 
 .carouselButtons {
   display: flex;
-  gap: 2vw;
+  gap: 1vw;
 }
 
 .carouselTitle {
@@ -393,10 +422,12 @@ body {
   flex-direction: row;
   justify-content: space-around;
   padding-inline: 10vw;
-  height: 75vh;
+  /* height: 75vh; */
   flex-wrap: nowrap;
   align-content: center;
   align-items: center;
+  padding-top: 6vh;
+  padding-bottom: 3vh;
 }
 
 .intro-profile {
@@ -437,20 +468,6 @@ body {
   line-height: 1.2;
   text-align: center;
 }
-
-/*************** Parallax**/
-
-/* .parallax-container {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
-  height: 50vh;
-  background-image: url("https://www.degandpartners.com/wp-content/uploads/2018/09/combien-ca-coute.jpg");
-  font-family: Poppins;
-  color: white;
-} */
 
 .parallax-container {
   display: flex;
@@ -497,17 +514,20 @@ body {
 }
 
 .parallax-container button {
-  height: 7vh;
-  width: 15vw;
-  font-size: larger;
+  font-size: 13px;
+  font-family: Poppins;
+  font-weight: 600;
   color: #fff;
   background-color: #eb7160;
   padding-bottom: 13px;
   padding-top: 13px;
   margin-top: 3vh;
+  padding-inline: 2.5vw;
   background: linear-gradient(90deg, #fea860, #eb7160);
   cursor: pointer;
   transition: background 0.3s ease-in-out;
+  border: none;
+  text-transform: uppercase;
 }
 
 .parallax-container button:hover {
@@ -517,15 +537,12 @@ body {
 
 /*****************************************Blog Styling*********************************/
 
-.blogs-container {
-  height: 80vh;
-}
-
 .blog-header {
   display: flex;
   justify-content: space-between;
   padding-inline: 4vw;
   padding-top: 3vh;
+  align-items: center;
 }
 
 .blog-header a {
@@ -549,11 +566,33 @@ body {
   letter-spacing: 0.085em;
   white-space: nowrap;
   transition: 0.5s;
+  text-decoration: none;
 }
 
 .blog-header a:hover {
   color: #ffffff;
   background-color: #282828;
+}
+
+.all-blogs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /* width: 98vw; */
+  align-content: flex-start;
+  /* margin-left: -4vw; */
+}
+
+.blogs-container {
+  height: 80vh;
+}
+
+.blog-item {
+  display: flex;
+  height: 30vh;
+  /*  width: 20vh;*/
 }
 
 /*************************************** moving items**************************************/
@@ -576,4 +615,79 @@ body {
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 7vh;
+  height: 30vh;
+  cursor: pointer;
 }
+
+.homepage-multiple-slider {
+  padding: 60px;
+  margin-bottom: 2vh;
+}
+
+.homepage-multiple-slider h2 {
+  text-align: center;
+  margin-bottom: 8vh;
+  font-size: 36px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 48px;
+  color: #282828;
+}
+
+.item-link-redirect {
+  cursor: pointer;
+  color: black;
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.7s ease-in-out;
+}
+
+.item-link-redirect:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+/**************************************** Info-Boxes ****************************/
+
+.infoboxes-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.futari-no-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+
+.infobox {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

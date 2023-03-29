@@ -12,13 +12,13 @@ import React, { useState, useEffect, useRef } from "react";
         useEffect(() => {
           const interval1 = setInterval(() => {
             if (count1 < number1) {
-              setCount1(count1 + 1);
+              setCount1(count1 + 2);
             }
           }, 50);
       
           const interval2 = setInterval(() => {
             if (count2 < number2) {
-              setCount2(count2 + 1);
+              setCount2(count2 + 5);
             }
           }, 50);
       
