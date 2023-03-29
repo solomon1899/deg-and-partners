@@ -3884,7 +3884,7 @@ var SliderComp = () => {
       lineNumber: 69,
       columnNumber: 11
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { style: { fontSize: 18, fontFamily: "Poppins" }, children: item.title }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { style: { fontSize: 18, fontFamily: "Poppins", textAlign: "center" }, children: item.title }, void 0, false, {
       fileName: "app/routes/nos-formules/index.jsx",
       lineNumber: 70,
       columnNumber: 11
@@ -3913,4 +3913,4 @@ export {
   nos_formules_default,
   SliderComp
 };
-//# sourceMappingURL=/build/_shared/chunk-5NAJVIXF.js.map
+//# sourceMappingURL=/build/_shared/chunk-SLXK3KM4.js.map

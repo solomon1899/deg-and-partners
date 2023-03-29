@@ -20,7 +20,7 @@ import {
   faFax,
 } from "@fortawesome/free-solid-svg-icons";
 import { SocialIcon } from "react-social-icons";
-import { useState , useEffect } from "react";
+import { useState, useEffect } from "react";
 
 // export const links = () => [{ rel: "stylesheet", href: globalStylesUrl  } , { rel: "stylesheet", href: bootCss  }];
 export const links = () => [
@@ -69,16 +69,15 @@ function Document({ children }) {
 }
 
 function Layout({ children }) {
-  const [isHidden, setIsHidden] = useState(false);
-  const [lastScrollTop, setLastScrollTop] = useState(0);
+  let lastScrollTop = 0;
 
   useEffect(() => {
     // Listen to the scroll event
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Cleanup the event listener on unmount
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -86,76 +85,81 @@ function Layout({ children }) {
     // Get the current scroll position
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
+    if(document.documentElement.scrollTop > 50)
+    { 
+      document.getElementById("pageNav").classList.add("addTop");
+     }else{
+      document.getElementById("pageNav").classList.remove("addTop");
+     }
     // Check the scroll direction
     if (scrollTop > lastScrollTop) {
       // Scrolling down, hide the navbar
-      setIsHidden(true);
-      setLastScrollTop(scrollTop);
+      document.getElementById("pageNav").classList.add("is-hidden");
+
+      lastScrollTop = scrollTop;
     } else {
-      // Scrolling up, show the navbar
-      setIsHidden(false);
-      setLastScrollTop(scrollTop);
+      // Scrolling up, show the navbar 
+      document.getElementById("pageNav").classList.remove("is-hidden");
+
+      lastScrollTop = scrollTop;
     }
 
     // Update the last scroll position
-    setLastScrollTop(scrollTop);
+    lastScrollTop = scrollTop;
   }
-
 
   return (
     <>
       <Header />
-      <nav className={`navbar ${isHidden ? 'is-hidden' : ''}`}>
-      <div className="navbar">
-        <img
-          className="logo"
-          src="https://www.degandpartners.com/wp-content/uploads/2018/09/logo-1-1.png"
-          alt="logo"
-        />
-        <ul className="nav">
-          <Link to="/" style={{ textDecoration: "none" }}>
-            Accueil
-          </Link>
-          <div className="dropdown">
-            <a className="dropbtn">Votre métier ▿</a>
-            <div className="dropdown-content">
-              <a href="#">Vous etes artiste et creatif ?</a>
-              <a href="#">Vous etes association culturelle ?</a>
-              <a href="#">Vous etes medecin ?</a>
-              <a href="#">Vous etes dentiste ?</a>
-              <a href="#">Vous etes veterinaire ?</a>
-              <a href="#">Vous etes consultant ?</a>
-              <a href="#">Vous etes avocat ?</a>
+        <div id="pageNav" className={`navbar `}>
+          <img
+            className="logo"
+            src="https://www.degandpartners.com/wp-content/uploads/2018/09/logo-1-1.png"
+            alt="logo"
+          />
+          <ul className="nav">
+            <Link to="/" style={{ textDecoration: "none" }}>
+              Accueil
+            </Link>
+            <div className="dropdown">
+              <a className="dropbtn">Votre métier ▿</a>
+              <div className="dropdown-content">
+                <a href="#">Vous etes artiste et creatif ?</a>
+                <a href="#">Vous etes association culturelle ?</a>
+                <a href="#">Vous etes medecin ?</a>
+                <a href="#">Vous etes dentiste ?</a>
+                <a href="#">Vous etes veterinaire ?</a>
+                <a href="#">Vous etes consultant ?</a>
+                <a href="#">Vous etes avocat ?</a>
+              </div>
             </div>
-          </div>
 
-          <div className="dropdown">
-            <a className="dropbtn">Qui sommes nous ? ▿</a>
-            <div className="dropdown-content">
-              <a href="#">Philosophie</a>
-              <a href="#">Structure</a>
-              <a href="#">Nos clients</a>
-              <a href="#">Equipe</a>
+            <div className="dropdown">
+              <a className="dropbtn">Qui sommes nous ? ▿</a>
+              <div className="dropdown-content">
+                <a href="#">Philosophie</a>
+                <a href="#">Structure</a>
+                <a href="#">Nos clients</a>
+                <a href="#">Equipe</a>
+              </div>
             </div>
-          </div>
 
-          <div className="dropdown">
-            <a className="dropbtn">Nos Services ▿</a>
-            <div className="dropdown-content">
-              <a href="#">Comptabilité</a>
-              <a href="#">Fiscalité</a>
-              <a href="#">Gestion</a>
-              <a href="#">Social & droit</a>
-              <a href="#">Application DEG</a>
+            <div className="dropdown">
+              <a className="dropbtn">Nos Services ▿</a>
+              <div className="dropdown-content">
+                <a href="#">Comptabilité</a>
+                <a href="#">Fiscalité</a>
+                <a href="#">Gestion</a>
+                <a href="#">Social & droit</a>
+                <a href="#">Application DEG</a>
+              </div>
             </div>
-          </div>
-          <a>Nos formules</a>
-          <a>Notre Blog </a>
-          <a>Contact</a>
-        </ul>
-        <a className="contact">contactez nous</a>
-      </div>
-      </nav>
+            <a>Nos formules</a>
+            <a>Notre Blog </a>
+            <a>Contact</a>
+          </ul>
+          <a className="contact">contactez nous</a>
+        </div>
       <div className="mainPage">{children}</div>
       <Footer />
     </>
@@ -238,14 +242,16 @@ function Footer() {
               <FontAwesomeIcon icon={faMapMarkerAlt} /> Rue Waelhem,68 - 1030
               Bruxelles
             </p>
-            <p>
-              <FontAwesomeIcon icon={faEnvelope} /> info@degandpartners.com
-            </p>
+
             <p>
               <FontAwesomeIcon icon={faPhone} /> + 32 2 247 39 39
             </p>
             <p>
               <FontAwesomeIcon icon={faFax} /> + 32 2 247 39 39
+            </p>
+            <p>
+              <FontAwesomeIcon icon={faEnvelope} size={"1x"} />{" "}
+              info@degandpartners.com
             </p>
           </div>
           <div className="third">
@@ -255,13 +261,13 @@ function Footer() {
               Liège
             </p>
             <p>
-              <FontAwesomeIcon icon={faEnvelope} /> info@degandpartners.com
-            </p>
-            <p>
               <FontAwesomeIcon icon={faPhone} /> + 32 4 343 17 31
             </p>
             <p>
               <FontAwesomeIcon icon={faFax} /> + 32 2 247 39 39
+            </p>
+            <p>
+              <FontAwesomeIcon icon={faEnvelope} /> info@degandpartners.com
             </p>
           </div>
           <div className="fourth">

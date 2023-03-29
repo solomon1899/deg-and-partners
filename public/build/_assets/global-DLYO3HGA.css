@@ -20,7 +20,7 @@ body {
   margin-left: 0vw;
   flex-wrap: wrap;
   padding-left: 1vw;
-  height: 7vh;
+  height: 50px;
 }
 .header {
   color: #fefefe80;
@@ -34,6 +34,7 @@ body {
   justify-content: space-between;
   font-size: larger;
   position: fixed;
+  top: 50px;
   width: 100%;
   font-size: 14px;
   z-index: 1;
@@ -145,6 +146,9 @@ body {
   transform: translateY(180%);
   transition: transform .3s ease-in-out;
 }
+.navbar.addTop {
+  top: 0;
+}
 .allfooter {
   display: flex;
   flex-direction: column;
@@ -200,15 +204,18 @@ body {
   font-family: Oxygen;
 }
 .footer {
-  height: 360px;
   width: auto;
   background-color: #32231d;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 1px;
-  justify-content: space-evenly;
+  justify-content: center;
   font-size: 15px;
+  gap: 3vw;
   color: #bdbdbd;
+  padding-top: 6vh;
+  padding-bottom: 11vh;
 }
 .first {
   display: flex;
@@ -349,7 +356,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   padding-inline: 10vw;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: center;
   align-items: center;
   padding-top: 6vh;

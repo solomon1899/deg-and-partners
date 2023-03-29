@@ -67,7 +67,7 @@ export const SliderComp = () => {
       {data.map((item) => (
         <div key={item.id} className='movingItem'>
           <img src={item.image} alt={item.title} style={{width : 40 , height : 40}} />
-          <h3 style={{fontSize : 18 , fontFamily : "Poppins"}}>{item.title}</h3>
+          <h3 style={{fontSize : 18 , fontFamily : "Poppins" , textAlign : "center"}}>{item.title}</h3>
           <a  className="item-link-redirect" href={item.link} >en savoir plus</a>
         </div>
       ))}
