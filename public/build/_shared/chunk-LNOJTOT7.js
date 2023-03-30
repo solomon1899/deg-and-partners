@@ -17,7 +17,7 @@ var InfoBoxes = () => {
       columnNumber: 5
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "infoboxes-container", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "futari-no-box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "infobox", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "two-boxes", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "infobox", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {}, void 0, false, {
           fileName: "app/routes/InfoBoxes.jsx",
           lineNumber: 10,
@@ -58,7 +58,7 @@ var InfoBoxes = () => {
         lineNumber: 18,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "futari-no-box", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "two-boxes", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", {}, void 0, false, {
           fileName: "app/routes/InfoBoxes.jsx",
           lineNumber: 22,
@@ -102,4 +102,4 @@ var InfoBoxes_default = InfoBoxes;
 export {
   InfoBoxes_default
 };
-//# sourceMappingURL=/build/_shared/chunk-2JDDDHEY.js.map
+//# sourceMappingURL=/build/_shared/chunk-LNOJTOT7.js.map

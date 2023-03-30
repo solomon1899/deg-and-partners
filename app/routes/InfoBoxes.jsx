@@ -5,7 +5,7 @@ const InfoBoxes = () => {
     <>
     <h1 style={{textAlign : 'center'}}>Nos Services</h1>
     <div className="infoboxes-container">
-      <div className="futari-no-box">
+      <div className="two-boxes">
         <div className="infobox">
             <img/>
             <div>
@@ -18,7 +18,7 @@ DÉCOUVRIR
       <div>
         <img src="https://www.degandpartners.com/wp-content/uploads/2018/09/e-1.png"></img>
       </div>
-      <div className="futari-no-box">
+      <div className="two-boxes">
       <img/>
             <div>
            <h2> Social & droit </h2>

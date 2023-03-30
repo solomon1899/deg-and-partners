@@ -1,4 +1,9 @@
 /* styles/global.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Oxygen;
 }
@@ -26,7 +31,7 @@ body {
   color: #fefefe80;
 }
 .navbar {
-  background-color: #30231e4f;
+  background-color: #32231db3;
   display: flex;
   flex-direction: row;
   height: 10vh;
@@ -38,19 +43,19 @@ body {
   width: 100%;
   font-size: 14px;
   z-index: 1;
+  padding-inline: 2vw;
 }
 .logo {
   height: 50px;
   max-height: 10vh;
   margin-right: auto;
-  margin-left: 1.5vw;
 }
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 2vw;
+  gap: 3.5vw;
   margin: 0;
   height: 100%;
 }
@@ -61,6 +66,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 14px;
+  text-decoration: none;
 }
 .nav a :hover {
   color: #eb7160;
@@ -142,10 +148,6 @@ body {
   transform: translateY(-180%);
   transition: transform .3s ease-in-out;
 }
-.navbar.is-kita {
-  transform: translateY(180%);
-  transition: transform .3s ease-in-out;
-}
 .navbar.addTop {
   top: 0;
 }
@@ -168,6 +170,7 @@ body {
   float: left;
   position: relative;
   height: 7vh;
+  display: flex;
 }
 .sabonner {
   width: 145px;
@@ -223,20 +226,20 @@ body {
   flex-wrap: nowrap;
   align-content: center;
   justify-content: flex-start;
-  align-items: center;
-  margin-top: 70px;
-  gap: 40px;
+  align-items: flex-start;
+  margin-top: 2vh;
+  gap: 5vh;
+  margin-inline: 4vw;
 }
 .footerLogo {
   height: 65px;
   width: 172px;
   max-height: 10vh;
   margin-right: auto;
-  margin-left: 1.5vw;
 }
 .footerSocialIcons {
   display: flex;
-  margin-left: -80px;
+  margin-left: 0;
 }
 .second {
   display: flex;
@@ -552,7 +555,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.futari-no-box {
+.two-boxes {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;

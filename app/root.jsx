@@ -124,41 +124,41 @@ function Layout({ children }) {
             <div className="dropdown">
               <a className="dropbtn">Votre métier ▿</a>
               <div className="dropdown-content">
-                <a href="#">Vous etes artiste et creatif ?</a>
-                <a href="#">Vous etes association culturelle ?</a>
-                <a href="#">Vous etes medecin ?</a>
-                <a href="#">Vous etes dentiste ?</a>
-                <a href="#">Vous etes veterinaire ?</a>
-                <a href="#">Vous etes consultant ?</a>
-                <a href="#">Vous etes avocat ?</a>
+                <a href="http://art-consult.be/">Vous etes artiste et creatif ?</a>
+                <a href="http://art-consult.be/">Vous etes association culturelle ?</a>
+                <a href="https://comptabilitemedecin.be/">Vous etes medecin ?</a>
+                <a href="https://www.comptabilitedentiste.be/">Vous etes dentiste ?</a>
+                <a href="http://www.comptabiliteveterinaire.be/">Vous etes veterinaire ?</a>
+                <a href="https://www.comptabiliteconsultant.be/">Vous etes consultant ?</a>
+                <a href="http://comptabiliteavocat.be/">Vous etes avocat ?</a>
               </div>
             </div>
 
             <div className="dropdown">
               <a className="dropbtn">Qui sommes nous ? ▿</a>
               <div className="dropdown-content">
-                <a href="#">Philosophie</a>
-                <a href="#">Structure</a>
-                <a href="#">Nos clients</a>
-                <a href="#">Equipe</a>
+                <a href="/philosophie">Philosophie</a>
+                <a href="/structure">Structure</a>
+                <a href="nos-clients">Nos clients</a>
+                <a href="equipe">Equipe</a>
               </div>
             </div>
 
             <div className="dropdown">
               <a className="dropbtn">Nos Services ▿</a>
               <div className="dropdown-content">
-                <a href="#">Comptabilité</a>
-                <a href="#">Fiscalité</a>
-                <a href="#">Gestion</a>
-                <a href="#">Social & droit</a>
-                <a href="#">Application DEG</a>
+                <a href="/comptabilite">Comptabilité</a>
+                <a href="/fiscalite">Fiscalité</a>
+                <a href="/gestion">Gestion</a>
+                <a href="/social-droit">Social & droit</a>
+                <a href="/applications-deg">Application DEG</a>
               </div>
             </div>
-            <a>Nos formules</a>
-            <a>Notre Blog </a>
-            <a>Contact</a>
+            <a href="/nos-formules">Nos formules</a>
+            <a href="/le-blog">Notre Blog </a>
+            <a href="/contact">Contact</a>
           </ul>
-          <a className="contact">contactez nous</a>
+          <a href="/contact" className="contact">contactez nous</a>
         </div>
       <div className="mainPage">{children}</div>
       <Footer />
@@ -171,7 +171,7 @@ function Header() {
     <div className="header">
       <p>
         {" "}
-        <FontAwesomeIcon icon={faMapMarkerAlt} /> Rue Waelhem,68 - 1030
+        <FontAwesomeIcon icon={faMapMarkerAlt} style={{width : 10}} /> Rue Waelhem,68 - 1030
         Bruxelles
       </p>
       <a
@@ -179,11 +179,11 @@ function Header() {
         style={{ textDecoration: "none", color: "inherit" }}
       >
         {" "}
-        <FontAwesomeIcon icon={faEnvelope} /> info@degandpartners.com
+        <FontAwesomeIcon icon={faEnvelope}  style={{width : 10}} /> info@degandpartners.com
       </a>
       <p>
         {" "}
-        <FontAwesomeIcon icon={faPhone} /> + 32 2 247 39 39
+        <FontAwesomeIcon icon={faPhone}  style={{width : 10}} /> + 32 2 247 39 39
       </p>
     </div>
   );
@@ -239,35 +239,35 @@ function Footer() {
           <div className="second">
             <h3 style={{ color: "white" }}>Bureau de Bruxelles</h3>
             <p>
-              <FontAwesomeIcon icon={faMapMarkerAlt} /> Rue Waelhem,68 - 1030
+              <FontAwesomeIcon icon={faMapMarkerAlt} size="1x" style={{width : 10}}/>{" "} Rue Waelhem,68 - 1030
               Bruxelles
             </p>
 
             <p>
-              <FontAwesomeIcon icon={faPhone} /> + 32 2 247 39 39
+              <FontAwesomeIcon icon={faPhone} size="1x" style={{width : 10}}/>{" "} + 32 2 247 39 39
             </p>
             <p>
-              <FontAwesomeIcon icon={faFax} /> + 32 2 247 39 39
+              <FontAwesomeIcon icon={faFax} size="1x" style={{width : 10}}/> {" "}+ 32 2 247 39 39
             </p>
             <p>
-              <FontAwesomeIcon icon={faEnvelope} size={"1x"} />{" "}
+              <FontAwesomeIcon icon={faEnvelope} size={"1x"}  style={{width : 10}}/>{" "}
               info@degandpartners.com
             </p>
           </div>
           <div className="third">
             <h3 style={{ color: "white", fontWeight: 600 }}>Bureau de Liège</h3>
             <p>
-              <FontAwesomeIcon icon={faMapMarkerAlt} /> Quai Orban, 41 – 4020
+              <FontAwesomeIcon icon={faMapMarkerAlt} style={{width : 10}}/> Quai Orban, 41 – 4020
               Liège
             </p>
             <p>
-              <FontAwesomeIcon icon={faPhone} /> + 32 4 343 17 31
+              <FontAwesomeIcon icon={faPhone} style={{width : 10}}/> + 32 4 343 17 31
             </p>
             <p>
-              <FontAwesomeIcon icon={faFax} /> + 32 2 247 39 39
+              <FontAwesomeIcon icon={faFax} style={{width : 10}} /> + 32 2 247 39 39
             </p>
             <p>
-              <FontAwesomeIcon icon={faEnvelope} /> info@degandpartners.com
+              <FontAwesomeIcon icon={faEnvelope} style={{width : 10}} /> info@degandpartners.com
             </p>
           </div>
           <div className="fourth">

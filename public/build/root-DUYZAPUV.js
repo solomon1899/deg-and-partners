@@ -1681,7 +1681,7 @@ var require_react_social_icons = __commonJS({
 });
 
 // styles/global.css
-var global_default = "/build/_assets/global-DLYO3HGA.css";
+var global_default = "/build/_assets/global-MRPFH6XV.css";
 
 // node_modules/slick-carousel/slick/slick.css
 var slick_default = "/build/_assets/slick-VUI5DTIW.css";
@@ -4652,37 +4652,37 @@ function Layout({ children }) {
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "dropdown-content", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Vous etes artiste et creatif ?" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "http://art-consult.be/", children: "Vous etes artiste et creatif ?" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 127,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Vous etes association culturelle ?" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "http://art-consult.be/", children: "Vous etes association culturelle ?" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 128,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Vous etes medecin ?" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://comptabilitemedecin.be/", children: "Vous etes medecin ?" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 129,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Vous etes dentiste ?" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://www.comptabilitedentiste.be/", children: "Vous etes dentiste ?" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 130,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Vous etes veterinaire ?" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "http://www.comptabiliteveterinaire.be/", children: "Vous etes veterinaire ?" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 131,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Vous etes consultant ?" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://www.comptabiliteconsultant.be/", children: "Vous etes consultant ?" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 132,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Vous etes avocat ?" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "http://comptabiliteavocat.be/", children: "Vous etes avocat ?" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 133,
               columnNumber: 17
@@ -4704,22 +4704,22 @@ function Layout({ children }) {
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "dropdown-content", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Philosophie" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/philosophie", children: "Philosophie" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 140,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Structure" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/structure", children: "Structure" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 141,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Nos clients" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "nos-clients", children: "Nos clients" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 142,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Equipe" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "equipe", children: "Equipe" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 143,
               columnNumber: 17
@@ -4741,27 +4741,27 @@ function Layout({ children }) {
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "dropdown-content", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Comptabilit\xE9" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/comptabilite", children: "Comptabilit\xE9" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 150,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Fiscalit\xE9" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/fiscalite", children: "Fiscalit\xE9" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 151,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Gestion" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/gestion", children: "Gestion" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 152,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Social & droit" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/social-droit", children: "Social & droit" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 153,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "#", children: "Application DEG" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/applications-deg", children: "Application DEG" }, void 0, false, {
               fileName: "app/root.jsx",
               lineNumber: 154,
               columnNumber: 17
@@ -4776,17 +4776,17 @@ function Layout({ children }) {
           lineNumber: 147,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { children: "Nos formules" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/nos-formules", children: "Nos formules" }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 157,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { children: "Notre Blog " }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/le-blog", children: "Notre Blog " }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 158,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { children: "Contact" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/contact", children: "Contact" }, void 0, false, {
           fileName: "app/root.jsx",
           lineNumber: 159,
           columnNumber: 13
@@ -4796,7 +4796,7 @@ function Layout({ children }) {
         lineNumber: 120,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { className: "contact", children: "contactez nous" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/contact", className: "contact", children: "contactez nous" }, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 161,
         columnNumber: 11
@@ -4826,7 +4826,7 @@ function Header() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "header", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
       " ",
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faMapMarkerAlt }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faMapMarkerAlt, style: { width: 10 } }, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 174,
         columnNumber: 9
@@ -4844,7 +4844,7 @@ function Header() {
         style: { textDecoration: "none", color: "inherit" },
         children: [
           " ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faEnvelope }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faEnvelope, style: { width: 10 } }, void 0, false, {
             fileName: "app/root.jsx",
             lineNumber: 182,
             columnNumber: 9
@@ -4863,7 +4863,7 @@ function Header() {
     ),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
       " ",
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faPhone }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faPhone, style: { width: 10 } }, void 0, false, {
         fileName: "app/root.jsx",
         lineNumber: 186,
         columnNumber: 9
@@ -5011,11 +5011,12 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faMapMarkerAlt }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faMapMarkerAlt, size: "1x", style: { width: 10 } }, void 0, false, {
             fileName: "app/root.jsx",
             lineNumber: 242,
             columnNumber: 15
           }, this),
+          " ",
           " Rue Waelhem,68 - 1030 Bruxelles"
         ] }, void 0, true, {
           fileName: "app/root.jsx",
@@ -5023,11 +5024,12 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faPhone }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faPhone, size: "1x", style: { width: 10 } }, void 0, false, {
             fileName: "app/root.jsx",
             lineNumber: 247,
             columnNumber: 15
           }, this),
+          " ",
           " + 32 2 247 39 39"
         ] }, void 0, true, {
           fileName: "app/root.jsx",
@@ -5035,19 +5037,21 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faFax }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faFax, size: "1x", style: { width: 10 } }, void 0, false, {
             fileName: "app/root.jsx",
             lineNumber: 250,
             columnNumber: 15
           }, this),
-          " + 32 2 247 39 39"
+          " ",
+          " ",
+          "+ 32 2 247 39 39"
         ] }, void 0, true, {
           fileName: "app/root.jsx",
           lineNumber: 249,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faEnvelope, size: "1x" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faEnvelope, size: "1x", style: { width: 10 } }, void 0, false, {
             fileName: "app/root.jsx",
             lineNumber: 253,
             columnNumber: 15
@@ -5071,7 +5075,7 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faMapMarkerAlt }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faMapMarkerAlt, style: { width: 10 } }, void 0, false, {
             fileName: "app/root.jsx",
             lineNumber: 260,
             columnNumber: 15
@@ -5083,7 +5087,7 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faPhone }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faPhone, style: { width: 10 } }, void 0, false, {
             fileName: "app/root.jsx",
             lineNumber: 264,
             columnNumber: 15
@@ -5095,7 +5099,7 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faFax }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faFax, style: { width: 10 } }, void 0, false, {
             fileName: "app/root.jsx",
             lineNumber: 267,
             columnNumber: 15
@@ -5107,7 +5111,7 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faEnvelope }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FontAwesomeIcon, { icon: faEnvelope, style: { width: 10 } }, void 0, false, {
             fileName: "app/root.jsx",
             lineNumber: 270,
             columnNumber: 15
@@ -5245,4 +5249,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-UMCGPO7O.js.map
+//# sourceMappingURL=/build/root-DUYZAPUV.js.map

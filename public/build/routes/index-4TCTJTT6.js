@@ -1,6 +1,6 @@
 import {
   InfoBoxes_default
-} from "/build/_shared/chunk-2JDDDHEY.js";
+} from "/build/_shared/chunk-LNOJTOT7.js";
 import {
   Formules_default
 } from "/build/_shared/chunk-IBVZ3FAQ.js";
@@ -67,4 +67,4 @@ function Home() {
 export {
   Home as default
 };
-//# sourceMappingURL=/build/routes/index-IIXT7ZFR.js.map
+//# sourceMappingURL=/build/routes/index-4TCTJTT6.js.map

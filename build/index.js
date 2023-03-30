@@ -149,7 +149,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // styles/global.css
-var global_default = "/build/_assets/global-DLYO3HGA.css";
+var global_default = "/build/_assets/global-MRPFH6XV.css";
 
 // node_modules/slick-carousel/slick/slick.css
 var slick_default = "/build/_assets/slick-VUI5DTIW.css";
@@ -278,37 +278,37 @@ function Layout({ children }) {
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "dropdown-content", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Vous etes artiste et creatif ?" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "http://art-consult.be/", children: "Vous etes artiste et creatif ?" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 127,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Vous etes association culturelle ?" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "http://art-consult.be/", children: "Vous etes association culturelle ?" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 128,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Vous etes medecin ?" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://comptabilitemedecin.be/", children: "Vous etes medecin ?" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 129,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Vous etes dentiste ?" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://www.comptabilitedentiste.be/", children: "Vous etes dentiste ?" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 130,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Vous etes veterinaire ?" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "http://www.comptabiliteveterinaire.be/", children: "Vous etes veterinaire ?" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 131,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Vous etes consultant ?" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://www.comptabiliteconsultant.be/", children: "Vous etes consultant ?" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 132,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Vous etes avocat ?" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "http://comptabiliteavocat.be/", children: "Vous etes avocat ?" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 133,
               columnNumber: 17
@@ -330,22 +330,22 @@ function Layout({ children }) {
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "dropdown-content", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Philosophie" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/philosophie", children: "Philosophie" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 140,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Structure" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/structure", children: "Structure" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 141,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Nos clients" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "nos-clients", children: "Nos clients" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 142,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Equipe" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "equipe", children: "Equipe" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 143,
               columnNumber: 17
@@ -367,27 +367,27 @@ function Layout({ children }) {
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "dropdown-content", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Comptabilit\xE9" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/comptabilite", children: "Comptabilit\xE9" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 150,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Fiscalit\xE9" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/fiscalite", children: "Fiscalit\xE9" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 151,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Gestion" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/gestion", children: "Gestion" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 152,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Social & droit" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/social-droit", children: "Social & droit" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 153,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "#", children: "Application DEG" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/applications-deg", children: "Application DEG" }, void 0, !1, {
               fileName: "app/root.jsx",
               lineNumber: 154,
               columnNumber: 17
@@ -402,17 +402,17 @@ function Layout({ children }) {
           lineNumber: 147,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { children: "Nos formules" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/nos-formules", children: "Nos formules" }, void 0, !1, {
           fileName: "app/root.jsx",
           lineNumber: 157,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { children: "Notre Blog " }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/le-blog", children: "Notre Blog " }, void 0, !1, {
           fileName: "app/root.jsx",
           lineNumber: 158,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { children: "Contact" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/contact", children: "Contact" }, void 0, !1, {
           fileName: "app/root.jsx",
           lineNumber: 159,
           columnNumber: 13
@@ -422,7 +422,7 @@ function Layout({ children }) {
         lineNumber: 120,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { className: "contact", children: "contactez nous" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "/contact", className: "contact", children: "contactez nous" }, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 161,
         columnNumber: 11
@@ -452,7 +452,7 @@ function Header() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "header", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
       " ",
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faMapMarkerAlt }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faMapMarkerAlt, style: { width: 10 } }, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 174,
         columnNumber: 9
@@ -470,7 +470,7 @@ function Header() {
         style: { textDecoration: "none", color: "inherit" },
         children: [
           " ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faEnvelope }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faEnvelope, style: { width: 10 } }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 182,
             columnNumber: 9
@@ -489,7 +489,7 @@ function Header() {
     ),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
       " ",
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faPhone }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faPhone, style: { width: 10 } }, void 0, !1, {
         fileName: "app/root.jsx",
         lineNumber: 186,
         columnNumber: 9
@@ -637,11 +637,12 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faMapMarkerAlt }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faMapMarkerAlt, size: "1x", style: { width: 10 } }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 242,
             columnNumber: 15
           }, this),
+          " ",
           " Rue Waelhem,68 - 1030 Bruxelles"
         ] }, void 0, !0, {
           fileName: "app/root.jsx",
@@ -649,11 +650,12 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faPhone }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faPhone, size: "1x", style: { width: 10 } }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 247,
             columnNumber: 15
           }, this),
+          " ",
           " + 32 2 247 39 39"
         ] }, void 0, !0, {
           fileName: "app/root.jsx",
@@ -661,19 +663,21 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faFax }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faFax, size: "1x", style: { width: 10 } }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 250,
             columnNumber: 15
           }, this),
-          " + 32 2 247 39 39"
+          " ",
+          " ",
+          "+ 32 2 247 39 39"
         ] }, void 0, !0, {
           fileName: "app/root.jsx",
           lineNumber: 249,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faEnvelope, size: "1x" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faEnvelope, size: "1x", style: { width: 10 } }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 253,
             columnNumber: 15
@@ -697,7 +701,7 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faMapMarkerAlt }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faMapMarkerAlt, style: { width: 10 } }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 260,
             columnNumber: 15
@@ -709,7 +713,7 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faPhone }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faPhone, style: { width: 10 } }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 264,
             columnNumber: 15
@@ -721,7 +725,7 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faFax }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faFax, style: { width: 10 } }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 267,
             columnNumber: 15
@@ -733,7 +737,7 @@ function Footer() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faEnvelope }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react_fontawesome.FontAwesomeIcon, { icon: import_free_solid_svg_icons.faEnvelope, style: { width: 10 } }, void 0, !1, {
             fileName: "app/root.jsx",
             lineNumber: 270,
             columnNumber: 15
@@ -1157,7 +1161,7 @@ var import_react8 = require("react"), import_jsx_dev_runtime8 = require("react/j
     columnNumber: 5
   }, this),
   /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "infoboxes-container", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "futari-no-box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "infobox", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "two-boxes", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "infobox", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", {}, void 0, !1, {
         fileName: "app/routes/InfoBoxes.jsx",
         lineNumber: 10,
@@ -1198,7 +1202,7 @@ var import_react8 = require("react"), import_jsx_dev_runtime8 = require("react/j
       lineNumber: 18,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "futari-no-box", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "two-boxes", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", {}, void 0, !1, {
         fileName: "app/routes/InfoBoxes.jsx",
         lineNumber: 22,
@@ -1495,7 +1499,7 @@ function Home() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "08575d54", entry: { module: "/build/entry.client-TLULWOLG.js", imports: ["/build/_shared/chunk-5WMVXZNB.js", "/build/_shared/chunk-FN3KWL4V.js", "/build/_shared/chunk-4IYZMDEG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-UMCGPO7O.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Blog": { id: "routes/Blog", parentId: "root", path: "Blog", index: void 0, caseSensitive: void 0, module: "/build/routes/Blog-4YI2YZ6G.js", imports: ["/build/_shared/chunk-D722K6IF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Formules": { id: "routes/Formules", parentId: "root", path: "Formules", index: void 0, caseSensitive: void 0, module: "/build/routes/Formules-Y6OHKJGY.js", imports: ["/build/_shared/chunk-IBVZ3FAQ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/InfoBoxes": { id: "routes/InfoBoxes", parentId: "root", path: "InfoBoxes", index: void 0, caseSensitive: void 0, module: "/build/routes/InfoBoxes-EO23QEYG.js", imports: ["/build/_shared/chunk-2JDDDHEY.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Introduction": { id: "routes/Introduction", parentId: "root", path: "Introduction", index: void 0, caseSensitive: void 0, module: "/build/routes/Introduction-YZGUEPXT.js", imports: ["/build/_shared/chunk-QIE76EEP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/MultipleSlider": { id: "routes/MultipleSlider", parentId: "root", path: "MultipleSlider", index: void 0, caseSensitive: void 0, module: "/build/routes/MultipleSlider-6GW2SOBH.js", imports: ["/build/_shared/chunk-PGLJVIT7.js", "/build/_shared/chunk-SLXK3KM4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/MyCarousel": { id: "routes/MyCarousel", parentId: "root", path: "MyCarousel", index: void 0, caseSensitive: void 0, module: "/build/routes/MyCarousel-PETYBN2K.js", imports: ["/build/_shared/chunk-UDVK52FF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/OneSlider": { id: "routes/OneSlider", parentId: "root", path: "OneSlider", index: void 0, caseSensitive: void 0, module: "/build/routes/OneSlider-CRXVPLBK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/contact/index": { id: "routes/contact/index", parentId: "root", path: "contact", index: !0, caseSensitive: void 0, module: "/build/routes/contact/index-44SPEOIL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-IIXT7ZFR.js", imports: ["/build/_shared/chunk-2JDDDHEY.js", "/build/_shared/chunk-IBVZ3FAQ.js", "/build/_shared/chunk-D722K6IF.js", "/build/_shared/chunk-PGLJVIT7.js", "/build/_shared/chunk-SLXK3KM4.js", "/build/_shared/chunk-QIE76EEP.js", "/build/_shared/chunk-UDVK52FF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nos-formules/index": { id: "routes/nos-formules/index", parentId: "root", path: "nos-formules", index: !0, caseSensitive: void 0, module: "/build/routes/nos-formules/index-BITOVLJ2.js", imports: ["/build/_shared/chunk-SLXK3KM4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/philosophie/index": { id: "routes/philosophie/index", parentId: "root", path: "philosophie", index: !0, caseSensitive: void 0, module: "/build/routes/philosophie/index-DA3LC7NE.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-08575D54.js" };
+var assets_manifest_default = { version: "36ac1704", entry: { module: "/build/entry.client-TLULWOLG.js", imports: ["/build/_shared/chunk-5WMVXZNB.js", "/build/_shared/chunk-FN3KWL4V.js", "/build/_shared/chunk-4IYZMDEG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DUYZAPUV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Blog": { id: "routes/Blog", parentId: "root", path: "Blog", index: void 0, caseSensitive: void 0, module: "/build/routes/Blog-4YI2YZ6G.js", imports: ["/build/_shared/chunk-D722K6IF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Formules": { id: "routes/Formules", parentId: "root", path: "Formules", index: void 0, caseSensitive: void 0, module: "/build/routes/Formules-Y6OHKJGY.js", imports: ["/build/_shared/chunk-IBVZ3FAQ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/InfoBoxes": { id: "routes/InfoBoxes", parentId: "root", path: "InfoBoxes", index: void 0, caseSensitive: void 0, module: "/build/routes/InfoBoxes-A6VOOFLX.js", imports: ["/build/_shared/chunk-LNOJTOT7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Introduction": { id: "routes/Introduction", parentId: "root", path: "Introduction", index: void 0, caseSensitive: void 0, module: "/build/routes/Introduction-YZGUEPXT.js", imports: ["/build/_shared/chunk-QIE76EEP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/MultipleSlider": { id: "routes/MultipleSlider", parentId: "root", path: "MultipleSlider", index: void 0, caseSensitive: void 0, module: "/build/routes/MultipleSlider-6GW2SOBH.js", imports: ["/build/_shared/chunk-PGLJVIT7.js", "/build/_shared/chunk-SLXK3KM4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/MyCarousel": { id: "routes/MyCarousel", parentId: "root", path: "MyCarousel", index: void 0, caseSensitive: void 0, module: "/build/routes/MyCarousel-PETYBN2K.js", imports: ["/build/_shared/chunk-UDVK52FF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/OneSlider": { id: "routes/OneSlider", parentId: "root", path: "OneSlider", index: void 0, caseSensitive: void 0, module: "/build/routes/OneSlider-CRXVPLBK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/contact/index": { id: "routes/contact/index", parentId: "root", path: "contact", index: !0, caseSensitive: void 0, module: "/build/routes/contact/index-44SPEOIL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-4TCTJTT6.js", imports: ["/build/_shared/chunk-LNOJTOT7.js", "/build/_shared/chunk-IBVZ3FAQ.js", "/build/_shared/chunk-D722K6IF.js", "/build/_shared/chunk-PGLJVIT7.js", "/build/_shared/chunk-SLXK3KM4.js", "/build/_shared/chunk-QIE76EEP.js", "/build/_shared/chunk-UDVK52FF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nos-formules/index": { id: "routes/nos-formules/index", parentId: "root", path: "nos-formules", index: !0, caseSensitive: void 0, module: "/build/routes/nos-formules/index-BITOVLJ2.js", imports: ["/build/_shared/chunk-SLXK3KM4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/philosophie/index": { id: "routes/philosophie/index", parentId: "root", path: "philosophie", index: !0, caseSensitive: void 0, module: "/build/routes/philosophie/index-DA3LC7NE.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-36AC1704.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { unstable_cssModules: !1, unstable_cssSideEffectImports: !1, unstable_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, unstable_vanillaExtract: !1, v2_errorBoundary: !1, v2_meta: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_node_exports }, routes = {

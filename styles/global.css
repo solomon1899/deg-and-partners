@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Oxygen;
 }
@@ -31,7 +37,7 @@ body {
 
 /******************************************* Layout Navbar Styling *********************************/
 .navbar {
-  background-color: rgba(48, 35, 30, 0.31);
+  background-color: rgba(50, 35, 29, 0.7);
   display: flex;
   flex-direction: row;
   height: 10vh;
@@ -44,13 +50,14 @@ body {
   width: 100%;
   font-size: 14px;
   z-index: 1;
+  padding-inline: 2vw;
 }
 
 .logo {
   height: 50px;
   max-height: 10vh;
   margin-right: auto;
-  margin-left: 1.5vw;
+  /* margin-left: 1.5vw; */
 }
 
 .nav {
@@ -58,7 +65,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 2vw;
+  gap: 3.5vw;
   margin: 0;
   height: 100%;
 }
@@ -70,10 +77,12 @@ body {
   display: flex;
   align-items: center;
   font-size: 14px;
+  text-decoration: none;
 }
 .nav a :hover {
   color: #eb7160;
 }
+
 .contact {
   text-align: right;
   font-family: Poppins;
@@ -171,19 +180,13 @@ body {
 }
 
 .navbar.is-hidden {
-   transform: translateY(-180%); 
+  transform: translateY(-180%);
 
-  transition: transform 0.3s ease-in-out;
-}
-
-
-.navbar.is-kita {
-  transform: translateY(180%);
   transition: transform 0.3s ease-in-out;
 }
 
 .navbar.addTop {
-  top:0px;
+  top: 0px;
 }
 /************************* FOOTER *******************************/
 
@@ -209,6 +212,7 @@ body {
   float: left;
   position: relative;
   height: 7vh;
+  display: flex;
   /*z-index: 1;*/
 }
 
@@ -254,17 +258,17 @@ body {
 
 .footer {
   width: auto;
-    background-color: #32231d;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 1px;
-    justify-content: center;
-    font-size: 15px;
-    gap: 3vw;
-    color: #bdbdbd;
-    padding-top: 6vh;
-    padding-bottom: 11vh;
+  background-color: #32231d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1px;
+  justify-content: center;
+  font-size: 15px;
+  gap: 3vw;
+  color: #bdbdbd;
+  padding-top: 6vh;
+  padding-bottom: 11vh;
 }
 
 .first {
@@ -273,21 +277,20 @@ body {
   flex-wrap: nowrap;
   align-content: center;
   justify-content: flex-start;
-  align-items: center;
-  /* margin-left: 15px; */
-  margin-top: 70px;
-  gap: 40px;
+  align-items: flex-start;
+  margin-top: 2vh;
+  gap: 5vh;
+  margin-inline: 4vw;
 }
 .footerLogo {
   height: 65px;
   width: 172px;
   max-height: 10vh;
   margin-right: auto;
-  margin-left: 1.5vw;
 }
 .footerSocialIcons {
   display: flex;
-  margin-left: -80px;
+  margin-left: 0;
 }
 .second {
   display: flex;
@@ -345,6 +348,7 @@ body {
   background-color: #32231d;
   text-align: center;
   margin-top: 1px;
+  padding: 15px;
 }
 
 /********************************* Page d'Accueil*****************************************/
@@ -668,7 +672,7 @@ body {
   align-items: center;
 }
 
-.futari-no-box {
+.two-boxes {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -678,25 +682,4 @@ body {
 }
 
 .infobox {
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
