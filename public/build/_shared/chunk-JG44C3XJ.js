@@ -141,7 +141,7 @@ var Formules = () => {
         lineNumber: 67,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { children: "voir les formules" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "/nos-formules", children: "voir les formules" }, void 0, false, {
         fileName: "app/routes/Formules.jsx",
         lineNumber: 68,
         columnNumber: 15
@@ -162,4 +162,4 @@ var Formules_default = Formules;
 export {
   Formules_default
 };
-//# sourceMappingURL=/build/_shared/chunk-IBVZ3FAQ.js.map
+//# sourceMappingURL=/build/_shared/chunk-JG44C3XJ.js.map

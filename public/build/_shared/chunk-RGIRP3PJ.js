@@ -43,24 +43,14 @@ var MyCarousel = () => {
     return () => clearInterval(interval);
   }, [index, titles]);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "carousel-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "carouselImage", style, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
-      "h1",
-      {
-        className: `carouselTitle ${index !== 0 ? "visible" : ""}`,
-        children: titles[index]
-      },
-      index,
-      false,
-      {
-        fileName: "app/routes/MyCarousel.jsx",
-        lineNumber: 67,
-        columnNumber: 9
-      },
-      this
-    ),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: `carouselTitle visible`, children: titles[index] }, index, false, {
+      fileName: "app/routes/MyCarousel.jsx",
+      lineNumber: 50,
+      columnNumber: 9
+    }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "carouselText", children: texts[index] }, void 0, false, {
       fileName: "app/routes/MyCarousel.jsx",
-      lineNumber: 73,
+      lineNumber: 53,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "carouselButtons", children: images.map((image, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -73,22 +63,22 @@ var MyCarousel = () => {
       false,
       {
         fileName: "app/routes/MyCarousel.jsx",
-        lineNumber: 76,
+        lineNumber: 56,
         columnNumber: 13
       },
       this
     )) }, void 0, false, {
       fileName: "app/routes/MyCarousel.jsx",
-      lineNumber: 74,
+      lineNumber: 54,
       columnNumber: 9
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/MyCarousel.jsx",
-    lineNumber: 65,
+    lineNumber: 49,
     columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/routes/MyCarousel.jsx",
-    lineNumber: 64,
+    lineNumber: 48,
     columnNumber: 5
   }, this);
 };
@@ -97,4 +87,4 @@ var MyCarousel_default = MyCarousel;
 export {
   MyCarousel_default
 };
-//# sourceMappingURL=/build/_shared/chunk-UDVK52FF.js.map
+//# sourceMappingURL=/build/_shared/chunk-RGIRP3PJ.js.map

@@ -1681,7 +1681,7 @@ var require_react_social_icons = __commonJS({
 });
 
 // styles/global.css
-var global_default = "/build/_assets/global-MRPFH6XV.css";
+var global_default = "/build/_assets/global-H3YP5KHU.css";
 
 // node_modules/slick-carousel/slick/slick.css
 var slick_default = "/build/_assets/slick-VUI5DTIW.css";
@@ -5249,4 +5249,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-DUYZAPUV.js.map
+//# sourceMappingURL=/build/root-SNB3PDWQ.js.map

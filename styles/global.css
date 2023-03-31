@@ -526,7 +526,7 @@ body {
   }
 }
 
-.parallax-container button {
+.parallax-container a {
   font-size: 13px;
   font-family: Poppins;
   font-weight: 600;
@@ -541,9 +541,10 @@ body {
   transition: background 0.3s ease-in-out;
   border: none;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.parallax-container button:hover {
+.parallax-container a:hover {
   background: linear-gradient(90deg, #eb7160, #fea860);
   background-color: #f93c20;
 }
@@ -553,7 +554,6 @@ body {
 .blog-header {
   display: flex;
   justify-content: space-between;
-  padding-inline: 4vw;
   padding-top: 3vh;
   align-items: center;
 }
@@ -590,22 +590,79 @@ body {
 .all-blogs {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
   /* width: 98vw; */
-  align-content: flex-start;
   /* margin-left: -4vw; */
 }
 
 .blogs-container {
   height: 80vh;
+  padding-inline: 4vw;
 }
 
 .blog-item {
-  display: flex;
-  height: 30vh;
-  /*  width: 20vh;*/
+  /* display: flex; */
+  /* height: 33vh; */
+  width: 27vw;
+  /* flex-direction: column; */
+  font-family: Poppins;
+}
+
+.blog-text {
+  font-size: 18px;
+  color: inherit;
+  text-decoration: none;
+  transition: 1s;
+  font-weight: 600;
+}
+
+.blog-text:hover {
+  color: #f93c20;
+}
+
+.blog-photo {
+  cursor: pointer;
+  /* height: 33vh; */
+  width: inherit;
+  transition: 1s;
+  height: 33vh;
+}
+
+.blog-photo:hover {
+  filter: brightness(
+    70%
+  ); /* Apply a 70% brightness filter to the image when the user hovers over it */
+}
+
+@media (max-width: 990px) {
+  .all-blogs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .blog-item {
+    width: 50%;
+  }
+}
+
+.blog-link {
+  color: #282828;
+  text-decoration: underline;
+  text-transform: uppercase;
+  transition: 1s;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.blog-link:hover {
+  opacity: 0.7;
+  text-decoration: none;
 }
 
 /*************************************** moving items**************************************/

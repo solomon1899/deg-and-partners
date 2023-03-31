@@ -149,7 +149,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // styles/global.css
-var global_default = "/build/_assets/global-MRPFH6XV.css";
+var global_default = "/build/_assets/global-H3YP5KHU.css";
 
 // node_modules/slick-carousel/slick/slick.css
 var slick_default = "/build/_assets/slick-VUI5DTIW.css";
@@ -879,12 +879,12 @@ __export(nos_formules_exports, {
 });
 var import_react_slick = __toESM(require("react-slick")), import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), index = () => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "movingItemsCarousel", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(SliderComp, {}, void 0, !1, {
   fileName: "app/routes/nos-formules/index.jsx",
-  lineNumber: 5,
-  columnNumber: 5
+  lineNumber: 6,
+  columnNumber: 7
 }, this) }, void 0, !1, {
   fileName: "app/routes/nos-formules/index.jsx",
-  lineNumber: 4,
-  columnNumber: 11
+  lineNumber: 5,
+  columnNumber: 5
 }, this), nos_formules_default = index, SliderComp = () => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_jsx_dev_runtime3.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react_slick.default, { ...{
   dots: !0,
   infinite: !0,
@@ -926,41 +926,101 @@ var import_react_slick = __toESM(require("react-slick")), import_jsx_dev_runtime
     }
   ]
 }, children: [
-  { id: 1, title: "Artiste et creatif", image: "https://www.degandpartners.com/wp-content/uploads/2021/04/artist-80x82.png", link: "http://www.art-consult.be/" },
-  { id: 2, title: "Association Culturelle", image: "https://www.degandpartners.com/wp-content/uploads/2021/04/asso-cul-80x84.png", link: "http://www.art-consult.be/" },
-  { id: 3, title: "Medecin", image: "https://www.degandpartners.com/wp-content/uploads/2021/03/ste\u0301thoscope@4x-80x97.png", link: "http://comptabilitemedecin.be/" },
-  { id: 4, title: "Dentiste", image: "https://www.degandpartners.com/wp-content/uploads/2021/03/dent@4x-80x86.png", link: "http://www.comptabilitedentiste.be/" },
-  { id: 5, title: "Veterinaire", image: "https://www.degandpartners.com/wp-content/uploads/2021/03/pets_2@4x-80x76.png", link: "http://www.comptabiliteveterinaire.be/" },
-  { id: 6, title: "Consultant", image: "https://www.degandpartners.com/wp-content/uploads/2022/01/consultant-icon-80x80.png", link: "https://www.comptabiliteconsultant.be/" },
-  { id: 7, title: "Avocat", image: "https://www.degandpartners.com/wp-content/uploads/2022/01/avocats-icon-80x89.png", link: "http://comptabiliteavocat.be/" }
+  {
+    id: 1,
+    title: "Artiste et creatif",
+    image: "https://www.degandpartners.com/wp-content/uploads/2021/04/artist-80x82.png",
+    link: "http://www.art-consult.be/"
+  },
+  {
+    id: 2,
+    title: "Association Culturelle",
+    image: "https://www.degandpartners.com/wp-content/uploads/2021/04/asso-cul-80x84.png",
+    link: "http://www.art-consult.be/"
+  },
+  {
+    id: 3,
+    title: "Medecin",
+    image: "https://www.degandpartners.com/wp-content/uploads/2021/03/ste\u0301thoscope@4x-80x97.png",
+    link: "http://comptabilitemedecin.be/"
+  },
+  {
+    id: 4,
+    title: "Dentiste",
+    image: "https://www.degandpartners.com/wp-content/uploads/2021/03/dent@4x-80x86.png",
+    link: "http://www.comptabilitedentiste.be/"
+  },
+  {
+    id: 5,
+    title: "Veterinaire",
+    image: "https://www.degandpartners.com/wp-content/uploads/2021/03/pets_2@4x-80x76.png",
+    link: "http://www.comptabiliteveterinaire.be/"
+  },
+  {
+    id: 6,
+    title: "Consultant",
+    image: "https://www.degandpartners.com/wp-content/uploads/2022/01/consultant-icon-80x80.png",
+    link: "https://www.comptabiliteconsultant.be/"
+  },
+  {
+    id: 7,
+    title: "Avocat",
+    image: "https://www.degandpartners.com/wp-content/uploads/2022/01/avocats-icon-80x89.png",
+    link: "http://comptabiliteavocat.be/"
+  }
 ].map((item) => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "movingItem", children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: item.image, alt: item.title, style: { width: 40, height: 40 } }, void 0, !1, {
-    fileName: "app/routes/nos-formules/index.jsx",
-    lineNumber: 69,
-    columnNumber: 11
-  }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { style: { fontSize: 18, fontFamily: "Poppins", textAlign: "center" }, children: item.title }, void 0, !1, {
-    fileName: "app/routes/nos-formules/index.jsx",
-    lineNumber: 70,
-    columnNumber: 11
-  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
+    "img",
+    {
+      src: item.image,
+      alt: item.title,
+      style: { width: 40, height: 40 }
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/nos-formules/index.jsx",
+      lineNumber: 113,
+      columnNumber: 13
+    },
+    this
+  ),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
+    "h3",
+    {
+      style: {
+        fontSize: 18,
+        fontFamily: "Poppins",
+        textAlign: "center"
+      },
+      children: item.title
+    },
+    void 0,
+    !1,
+    {
+      fileName: "app/routes/nos-formules/index.jsx",
+      lineNumber: 118,
+      columnNumber: 13
+    },
+    this
+  ),
   /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { className: "item-link-redirect", href: item.link, children: "en savoir plus" }, void 0, !1, {
     fileName: "app/routes/nos-formules/index.jsx",
-    lineNumber: 71,
-    columnNumber: 11
+    lineNumber: 127,
+    columnNumber: 13
   }, this)
 ] }, item.id, !0, {
   fileName: "app/routes/nos-formules/index.jsx",
-  lineNumber: 68,
-  columnNumber: 9
+  lineNumber: 112,
+  columnNumber: 11
 }, this)) }, void 0, !1, {
   fileName: "app/routes/nos-formules/index.jsx",
-  lineNumber: 66,
-  columnNumber: 5
+  lineNumber: 110,
+  columnNumber: 7
 }, this) }, void 0, !1, {
   fileName: "app/routes/nos-formules/index.jsx",
-  lineNumber: 65,
-  columnNumber: 1
+  lineNumber: 109,
+  columnNumber: 5
 }, this);
 
 // app/routes/philosophie/index.jsx
@@ -1099,24 +1159,14 @@ var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/j
     }, 5e3);
     return () => clearInterval(interval);
   }, [index2, titles]), /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "carousel-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "carouselImage", style, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
-      "h1",
-      {
-        className: `carouselTitle ${index2 !== 0 ? "visible" : ""}`,
-        children: titles[index2]
-      },
-      index2,
-      !1,
-      {
-        fileName: "app/routes/MyCarousel.jsx",
-        lineNumber: 67,
-        columnNumber: 9
-      },
-      this
-    ),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h1", { className: "carouselTitle visible", children: titles[index2] }, index2, !1, {
+      fileName: "app/routes/MyCarousel.jsx",
+      lineNumber: 50,
+      columnNumber: 9
+    }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { className: "carouselText", children: texts[index2] }, void 0, !1, {
       fileName: "app/routes/MyCarousel.jsx",
-      lineNumber: 73,
+      lineNumber: 53,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "carouselButtons", children: images.map((image, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(
@@ -1129,22 +1179,22 @@ var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/j
       !1,
       {
         fileName: "app/routes/MyCarousel.jsx",
-        lineNumber: 76,
+        lineNumber: 56,
         columnNumber: 13
       },
       this
     )) }, void 0, !1, {
       fileName: "app/routes/MyCarousel.jsx",
-      lineNumber: 74,
+      lineNumber: 54,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/MyCarousel.jsx",
-    lineNumber: 65,
+    lineNumber: 49,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/routes/MyCarousel.jsx",
-    lineNumber: 64,
+    lineNumber: 48,
     columnNumber: 5
   }, this);
 }, MyCarousel_default = MyCarousel;
@@ -1158,7 +1208,7 @@ var import_react8 = require("react"), import_jsx_dev_runtime8 = require("react/j
   /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { style: { textAlign: "center" }, children: "Nos Services" }, void 0, !1, {
     fileName: "app/routes/InfoBoxes.jsx",
     lineNumber: 6,
-    columnNumber: 5
+    columnNumber: 7
   }, this),
   /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "infoboxes-container", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "two-boxes", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "infobox", children: [
@@ -1171,12 +1221,12 @@ var import_react8 = require("react"), import_jsx_dev_runtime8 = require("react/j
         /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h2", { children: " Social & droit " }, void 0, !1, {
           fileName: "app/routes/InfoBoxes.jsx",
           lineNumber: 12,
-          columnNumber: 12
+          columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { children: "Il nous parait primordial que nos clients, qu\u2019ils exercent en Personne Physique ou en soci\xE9t\xE9, puissent b\xE9n\xE9ficier de conseils extra-comptables." }, void 0, !1, {
           fileName: "app/routes/InfoBoxes.jsx",
           lineNumber: 13,
-          columnNumber: 1
+          columnNumber: 15
         }, this),
         "D\xC9COUVRIR"
       ] }, void 0, !0, {
@@ -1187,53 +1237,53 @@ var import_react8 = require("react"), import_jsx_dev_runtime8 = require("react/j
     ] }, void 0, !0, {
       fileName: "app/routes/InfoBoxes.jsx",
       lineNumber: 9,
-      columnNumber: 9
+      columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/routes/InfoBoxes.jsx",
       lineNumber: 8,
-      columnNumber: 7
+      columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { src: "https://www.degandpartners.com/wp-content/uploads/2018/09/e-1.png" }, void 0, !1, {
       fileName: "app/routes/InfoBoxes.jsx",
-      lineNumber: 19,
-      columnNumber: 9
+      lineNumber: 23,
+      columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/routes/InfoBoxes.jsx",
-      lineNumber: 18,
-      columnNumber: 7
+      lineNumber: 22,
+      columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "two-boxes", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", {}, void 0, !1, {
         fileName: "app/routes/InfoBoxes.jsx",
-        lineNumber: 22,
-        columnNumber: 7
+        lineNumber: 26,
+        columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h2", { children: " Social & droit " }, void 0, !1, {
           fileName: "app/routes/InfoBoxes.jsx",
-          lineNumber: 24,
-          columnNumber: 12
+          lineNumber: 28,
+          columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { children: "Il nous parait primordial que nos clients, qu\u2019ils exercent en Personne Physique ou en soci\xE9t\xE9, puissent b\xE9n\xE9ficier de conseils extra-comptables." }, void 0, !1, {
           fileName: "app/routes/InfoBoxes.jsx",
-          lineNumber: 25,
-          columnNumber: 1
+          lineNumber: 29,
+          columnNumber: 13
         }, this),
         "D\xC9COUVRIR"
       ] }, void 0, !0, {
         fileName: "app/routes/InfoBoxes.jsx",
-        lineNumber: 23,
-        columnNumber: 13
+        lineNumber: 27,
+        columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/InfoBoxes.jsx",
-      lineNumber: 21,
-      columnNumber: 7
+      lineNumber: 25,
+      columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/InfoBoxes.jsx",
     lineNumber: 7,
-    columnNumber: 5
+    columnNumber: 7
   }, this)
 ] }, void 0, !0, {
   fileName: "app/routes/InfoBoxes.jsx",
@@ -1246,9 +1296,52 @@ var OneSlider_exports = {};
 __export(OneSlider_exports, {
   default: () => OneSlider_default
 });
-var import_react9 = require("react"), import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), OneSlider = () => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", {}, void 0, !1, {
+var import_react9 = require("react"), import_react_slick2 = __toESM(require("react-slick")), import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), OneSlider = () => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "oneSlider-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(OneItemSlider, {}, void 0, !1, {
   fileName: "app/routes/OneSlider.jsx",
-  lineNumber: 5,
+  lineNumber: 7,
+  columnNumber: 9
+}, this) }, void 0, !1, {
+  fileName: "app/routes/OneSlider.jsx",
+  lineNumber: 6,
+  columnNumber: 5
+}, this), OneItemSlider = () => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_react_slick2.default, { ...{
+  dots: !0,
+  arrows: !1,
+  infinite: !0,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1
+}, children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { src: "https://example.com/image1.jpg", alt: "Image 1" }, void 0, !1, {
+    fileName: "app/routes/OneSlider.jsx",
+    lineNumber: 28,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/OneSlider.jsx",
+    lineNumber: 27,
+    columnNumber: 7
+  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { src: "https://example.com/image2.jpg", alt: "Image 2" }, void 0, !1, {
+    fileName: "app/routes/OneSlider.jsx",
+    lineNumber: 31,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/OneSlider.jsx",
+    lineNumber: 30,
+    columnNumber: 7
+  }, this),
+  /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { src: "https://example.com/image3.jpg", alt: "Image 3" }, void 0, !1, {
+    fileName: "app/routes/OneSlider.jsx",
+    lineNumber: 34,
+    columnNumber: 9
+  }, this) }, void 0, !1, {
+    fileName: "app/routes/OneSlider.jsx",
+    lineNumber: 33,
+    columnNumber: 7
+  }, this)
+] }, void 0, !0, {
+  fileName: "app/routes/OneSlider.jsx",
+  lineNumber: 26,
   columnNumber: 5
 }, this), OneSlider_default = OneSlider;
 
@@ -1373,7 +1466,7 @@ var import_react10 = require("react"), import_jsx_dev_runtime10 = require("react
         lineNumber: 67,
         columnNumber: 15
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("button", { children: "voir les formules" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { href: "/nos-formules", children: "voir les formules" }, void 0, !1, {
         fileName: "app/routes/Formules.jsx",
         lineNumber: 68,
         columnNumber: 15
@@ -1419,36 +1512,225 @@ var import_react11 = require("react"), import_jsx_dev_runtime11 = require("react
     columnNumber: 7
   }, this),
   /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "all-blogs", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "blog-item", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("img", { src: "https://s3.tamtam.pro/prod/storage/media/IMAGE/33523/8a0f734521d878479defbb0d83156cdaca391bc4.jpeg" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "blog-item", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+        "img",
+        {
+          className: "blog-photo",
+          src: "https://s3.tamtam.pro/prod/storage/media/IMAGE/33745/1d7aa188caed0a7300bf95fcb22eb2422ae5e791.jpeg"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 14,
+          columnNumber: 11
+        },
+        this
+      ),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { fontFamily: "Oxygen", fontSize: 12, opacity: 0.7 }, children: [
+          "27-03-2023 ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { color: "orange" }, children: " |" }, void 0, !1, {
+            fileName: "app/routes/Blog.jsx",
+            lineNumber: 20,
+            columnNumber: 26
+          }, this),
+          " Fiscalit\xE9",
+          " "
+        ] }, void 0, !0, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 19,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 22,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+          "a",
+          {
+            className: "blog-text",
+            href: "https://blog.degandpartners.com/fr/article/comment-la-politique-comprendra-que-le-travail-nest-plus-une-vache-a-lait-/18273",
+            children: "Versements anticip\xE9s 2022 trop \xE9lev\xE9s? R\xE9agissez avant avril 2023!"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/Blog.jsx",
+            lineNumber: 23,
+            columnNumber: 13
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 29,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("a", { className: "blog-link", href: "https://blog.degandpartners.com/fr/article/comment-la-politique-comprendra-que-le-travail-nest-plus-une-vache-a-lait-/18273", children: "Lire la suite" }, void 0, !1, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 30,
+          columnNumber: 13
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/Blog.jsx",
+        lineNumber: 18,
+        columnNumber: 11
+      }, this)
+    ] }, void 0, !0, {
       fileName: "app/routes/Blog.jsx",
-      lineNumber: 12,
-      columnNumber: 11
-    }, this) }, void 0, !1, {
-      fileName: "app/routes/Blog.jsx",
-      lineNumber: 11,
+      lineNumber: 13,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "blog-item", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("img", { src: "https://s3.tamtam.pro/prod/storage/media/IMAGE/33523/8a0f734521d878479defbb0d83156cdaca391bc4.jpeg" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "blog-item", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+        "img",
+        {
+          className: "blog-photo",
+          src: "https://s3.tamtam.pro/prod/storage/media/IMAGE/33523/8a0f734521d878479defbb0d83156cdaca391bc4.jpeg"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 34,
+          columnNumber: 11
+        },
+        this
+      ),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { fontFamily: "Oxygen", fontSize: 12, opacity: 0.7 }, children: [
+          "27-03-2023 ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { color: "orange" }, children: " |" }, void 0, !1, {
+            fileName: "app/routes/Blog.jsx",
+            lineNumber: 40,
+            columnNumber: 26
+          }, this),
+          " Fiscalit\xE9",
+          " "
+        ] }, void 0, !0, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 39,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 42,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+          "a",
+          {
+            className: "blog-text",
+            href: "https://blog.degandpartners.com/fr/article/comment-la-politique-comprendra-que-le-travail-nest-plus-une-vache-a-lait-/18273",
+            children: "Comment la politique comprendra que le travail n\u2019est plus une vache \xE0 lait ?"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/Blog.jsx",
+            lineNumber: 43,
+            columnNumber: 13
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 50,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("a", { className: "blog-link", href: "https://blog.degandpartners.com/fr/article/comment-la-politique-comprendra-que-le-travail-nest-plus-une-vache-a-lait-/18273", children: "Lire La suite" }, void 0, !1, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 51,
+          columnNumber: 13
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/Blog.jsx",
+        lineNumber: 38,
+        columnNumber: 11
+      }, this)
+    ] }, void 0, !0, {
       fileName: "app/routes/Blog.jsx",
-      lineNumber: 15,
-      columnNumber: 11
-    }, this) }, void 0, !1, {
-      fileName: "app/routes/Blog.jsx",
-      lineNumber: 14,
+      lineNumber: 33,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "blog-item", children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("img", { src: "https://s3.tamtam.pro/prod/storage/media/IMAGE/33523/8a0f734521d878479defbb0d83156cdaca391bc4.jpeg" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "blog-item", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+        "img",
+        {
+          className: "blog-photo",
+          src: "https://s3.tamtam.pro/prod/storage/media/IMAGE/33359/b3db6e89218c58b5f70d1490705fedf0f138417b.jpeg"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 55,
+          columnNumber: 11
+        },
+        this
+      ),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { fontFamily: "Oxygen", fontSize: 12, opacity: 0.7 }, children: [
+          "27-03-2023 ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("span", { style: { color: "orange" }, children: " |" }, void 0, !1, {
+            fileName: "app/routes/Blog.jsx",
+            lineNumber: 61,
+            columnNumber: 26
+          }, this),
+          " Fiscalit\xE9",
+          " "
+        ] }, void 0, !0, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 60,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 63,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+          "a",
+          {
+            className: "blog-text",
+            href: "https://blog.degandpartners.com/fr/article/comment-la-politique-comprendra-que-le-travail-nest-plus-une-vache-a-lait-/18273",
+            children: "\u200BLe d\xE9lai de la d\xE9claration IPP est tomb\xE9 !"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/Blog.jsx",
+            lineNumber: 64,
+            columnNumber: 13
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 70,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("a", { className: "blog-link", href: "https://blog.degandpartners.com/fr/article/comment-la-politique-comprendra-que-le-travail-nest-plus-une-vache-a-lait-/18273", children: "Lire La suite" }, void 0, !1, {
+          fileName: "app/routes/Blog.jsx",
+          lineNumber: 71,
+          columnNumber: 13
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/Blog.jsx",
+        lineNumber: 59,
+        columnNumber: 11
+      }, this)
+    ] }, void 0, !0, {
       fileName: "app/routes/Blog.jsx",
-      lineNumber: 18,
-      columnNumber: 11
-    }, this) }, void 0, !1, {
-      fileName: "app/routes/Blog.jsx",
-      lineNumber: 17,
+      lineNumber: 54,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/Blog.jsx",
-    lineNumber: 10,
+    lineNumber: 12,
     columnNumber: 7
   }, this)
 ] }, void 0, !0, {
@@ -1463,43 +1745,48 @@ function Home() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(import_jsx_dev_runtime12.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(MyCarousel_default, {}, void 0, !1, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 12,
+      lineNumber: 13,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(MultipleSlider_default, {}, void 0, !1, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 13,
+      lineNumber: 14,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(Introduction_default, {}, void 0, !1, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 14,
+      lineNumber: 15,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(Formules_default, {}, void 0, !1, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 15,
+      lineNumber: 16,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(Blog_default, {}, void 0, !1, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 16,
+      lineNumber: 17,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(InfoBoxes_default, {}, void 0, !1, {
       fileName: "app/routes/index.jsx",
-      lineNumber: 17,
+      lineNumber: 18,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(OneSlider_default, {}, void 0, !1, {
+      fileName: "app/routes/index.jsx",
+      lineNumber: 19,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/index.jsx",
-    lineNumber: 11,
+    lineNumber: 12,
     columnNumber: 5
   }, this);
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "36ac1704", entry: { module: "/build/entry.client-TLULWOLG.js", imports: ["/build/_shared/chunk-5WMVXZNB.js", "/build/_shared/chunk-FN3KWL4V.js", "/build/_shared/chunk-4IYZMDEG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DUYZAPUV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Blog": { id: "routes/Blog", parentId: "root", path: "Blog", index: void 0, caseSensitive: void 0, module: "/build/routes/Blog-4YI2YZ6G.js", imports: ["/build/_shared/chunk-D722K6IF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Formules": { id: "routes/Formules", parentId: "root", path: "Formules", index: void 0, caseSensitive: void 0, module: "/build/routes/Formules-Y6OHKJGY.js", imports: ["/build/_shared/chunk-IBVZ3FAQ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/InfoBoxes": { id: "routes/InfoBoxes", parentId: "root", path: "InfoBoxes", index: void 0, caseSensitive: void 0, module: "/build/routes/InfoBoxes-A6VOOFLX.js", imports: ["/build/_shared/chunk-LNOJTOT7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Introduction": { id: "routes/Introduction", parentId: "root", path: "Introduction", index: void 0, caseSensitive: void 0, module: "/build/routes/Introduction-YZGUEPXT.js", imports: ["/build/_shared/chunk-QIE76EEP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/MultipleSlider": { id: "routes/MultipleSlider", parentId: "root", path: "MultipleSlider", index: void 0, caseSensitive: void 0, module: "/build/routes/MultipleSlider-6GW2SOBH.js", imports: ["/build/_shared/chunk-PGLJVIT7.js", "/build/_shared/chunk-SLXK3KM4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/MyCarousel": { id: "routes/MyCarousel", parentId: "root", path: "MyCarousel", index: void 0, caseSensitive: void 0, module: "/build/routes/MyCarousel-PETYBN2K.js", imports: ["/build/_shared/chunk-UDVK52FF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/OneSlider": { id: "routes/OneSlider", parentId: "root", path: "OneSlider", index: void 0, caseSensitive: void 0, module: "/build/routes/OneSlider-CRXVPLBK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/contact/index": { id: "routes/contact/index", parentId: "root", path: "contact", index: !0, caseSensitive: void 0, module: "/build/routes/contact/index-44SPEOIL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-4TCTJTT6.js", imports: ["/build/_shared/chunk-LNOJTOT7.js", "/build/_shared/chunk-IBVZ3FAQ.js", "/build/_shared/chunk-D722K6IF.js", "/build/_shared/chunk-PGLJVIT7.js", "/build/_shared/chunk-SLXK3KM4.js", "/build/_shared/chunk-QIE76EEP.js", "/build/_shared/chunk-UDVK52FF.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nos-formules/index": { id: "routes/nos-formules/index", parentId: "root", path: "nos-formules", index: !0, caseSensitive: void 0, module: "/build/routes/nos-formules/index-BITOVLJ2.js", imports: ["/build/_shared/chunk-SLXK3KM4.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/philosophie/index": { id: "routes/philosophie/index", parentId: "root", path: "philosophie", index: !0, caseSensitive: void 0, module: "/build/routes/philosophie/index-DA3LC7NE.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-36AC1704.js" };
+var assets_manifest_default = { version: "628aff3d", entry: { module: "/build/entry.client-TLULWOLG.js", imports: ["/build/_shared/chunk-5WMVXZNB.js", "/build/_shared/chunk-FN3KWL4V.js", "/build/_shared/chunk-4IYZMDEG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-SNB3PDWQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Blog": { id: "routes/Blog", parentId: "root", path: "Blog", index: void 0, caseSensitive: void 0, module: "/build/routes/Blog-IFCNB6FX.js", imports: ["/build/_shared/chunk-YOCTRNGP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Formules": { id: "routes/Formules", parentId: "root", path: "Formules", index: void 0, caseSensitive: void 0, module: "/build/routes/Formules-PI2A7DDI.js", imports: ["/build/_shared/chunk-JG44C3XJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/InfoBoxes": { id: "routes/InfoBoxes", parentId: "root", path: "InfoBoxes", index: void 0, caseSensitive: void 0, module: "/build/routes/InfoBoxes-GAW4ZB6H.js", imports: ["/build/_shared/chunk-YVMN47IO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/Introduction": { id: "routes/Introduction", parentId: "root", path: "Introduction", index: void 0, caseSensitive: void 0, module: "/build/routes/Introduction-YZGUEPXT.js", imports: ["/build/_shared/chunk-QIE76EEP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/MultipleSlider": { id: "routes/MultipleSlider", parentId: "root", path: "MultipleSlider", index: void 0, caseSensitive: void 0, module: "/build/routes/MultipleSlider-C6IRIW3S.js", imports: ["/build/_shared/chunk-HVFPML25.js", "/build/_shared/chunk-VQXOMYC7.js", "/build/_shared/chunk-IO6PW3G7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/MyCarousel": { id: "routes/MyCarousel", parentId: "root", path: "MyCarousel", index: void 0, caseSensitive: void 0, module: "/build/routes/MyCarousel-RBNP33GY.js", imports: ["/build/_shared/chunk-RGIRP3PJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/OneSlider": { id: "routes/OneSlider", parentId: "root", path: "OneSlider", index: void 0, caseSensitive: void 0, module: "/build/routes/OneSlider-KTXGQTQF.js", imports: ["/build/_shared/chunk-M4AGSOAW.js", "/build/_shared/chunk-IO6PW3G7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/contact/index": { id: "routes/contact/index", parentId: "root", path: "contact", index: !0, caseSensitive: void 0, module: "/build/routes/contact/index-44SPEOIL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-XVAM3LYY.js", imports: ["/build/_shared/chunk-YVMN47IO.js", "/build/_shared/chunk-M4AGSOAW.js", "/build/_shared/chunk-JG44C3XJ.js", "/build/_shared/chunk-YOCTRNGP.js", "/build/_shared/chunk-HVFPML25.js", "/build/_shared/chunk-VQXOMYC7.js", "/build/_shared/chunk-IO6PW3G7.js", "/build/_shared/chunk-QIE76EEP.js", "/build/_shared/chunk-RGIRP3PJ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/nos-formules/index": { id: "routes/nos-formules/index", parentId: "root", path: "nos-formules", index: !0, caseSensitive: void 0, module: "/build/routes/nos-formules/index-SWLVE4YJ.js", imports: ["/build/_shared/chunk-VQXOMYC7.js", "/build/_shared/chunk-IO6PW3G7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/philosophie/index": { id: "routes/philosophie/index", parentId: "root", path: "philosophie", index: !0, caseSensitive: void 0, module: "/build/routes/philosophie/index-DA3LC7NE.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, hmr: void 0, url: "/build/manifest-628AFF3D.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { unstable_cssModules: !1, unstable_cssSideEffectImports: !1, unstable_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, unstable_vanillaExtract: !1, v2_errorBoundary: !1, v2_meta: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_node_exports }, routes = {

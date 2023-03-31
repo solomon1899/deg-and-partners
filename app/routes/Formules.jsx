@@ -65,7 +65,7 @@ import React, { useState, useEffect, useRef } from "react";
                 Nos formules
               </h1>
               <p>Nous vous proposons 3 packages, en fonction de vos besoins.</p>
-              <button>voir les formules</button>
+              <a href="/nos-formules">voir les formules</a>
             </div>
           </div>
         );

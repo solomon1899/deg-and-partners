@@ -287,6 +287,7 @@ body {
   background-color: #32231d;
   text-align: center;
   margin-top: 1px;
+  padding: 15px;
 }
 .carouselImage {
   background-color: #0003;
@@ -438,7 +439,7 @@ body {
     background-repeat: no-repeat;
   }
 }
-.parallax-container button {
+.parallax-container a {
   font-size: 13px;
   font-family: Poppins;
   font-weight: 600;
@@ -453,15 +454,15 @@ body {
   transition: background .3s ease-in-out;
   border: none;
   text-transform: uppercase;
+  text-decoration: none;
 }
-.parallax-container button:hover {
+.parallax-container a:hover {
   background: linear-gradient(90deg, #eb7160, #fea860);
   background-color: #f93c20;
 }
 .blog-header {
   display: flex;
   justify-content: space-between;
-  padding-inline: 4vw;
   padding-top: 3vh;
   align-items: center;
 }
@@ -491,17 +492,61 @@ body {
 .all-blogs {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: flex-start;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .blogs-container {
   height: 80vh;
+  padding-inline: 4vw;
 }
 .blog-item {
-  display: flex;
-  height: 30vh;
+  width: 27vw;
+  font-family: Poppins;
+}
+.blog-text {
+  font-size: 18px;
+  color: inherit;
+  text-decoration: none;
+  transition: 1s;
+  font-weight: 600;
+}
+.blog-text:hover {
+  color: #f93c20;
+}
+.blog-photo {
+  cursor: pointer;
+  width: inherit;
+  transition: 1s;
+  height: 33vh;
+}
+.blog-photo:hover {
+  filter: brightness(70%);
+}
+@media (max-width: 990px) {
+  .all-blogs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .blog-item {
+    width: 50%;
+  }
+}
+.blog-link {
+  color: #282828;
+  text-decoration: underline;
+  text-transform: uppercase;
+  transition: 1s;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 50px;
+}
+.blog-link:hover {
+  opacity: .7;
+  text-decoration: none;
 }
 .movingItemsCarousel {
   padding-inline: 3vw;

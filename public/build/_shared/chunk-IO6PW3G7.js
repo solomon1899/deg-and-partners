@@ -1,13 +1,11 @@
 import {
-  require_jsx_dev_runtime,
   require_react
 } from "/build/_shared/chunk-FN3KWL4V.js";
 import {
   __commonJS,
   __esm,
   __export,
-  __toCommonJS,
-  __toESM
+  __toCommonJS
 } from "/build/_shared/chunk-4IYZMDEG.js";
 
 // node_modules/react-slick/lib/initial-state.js
@@ -427,20 +425,20 @@ var require_innerSliderUtils = __commonJS({
     };
     exports.initializedState = initializedState;
     var slideHandler = function slideHandler2(spec) {
-      var waitForAnimate = spec.waitForAnimate, animating = spec.animating, fade = spec.fade, infinite = spec.infinite, index3 = spec.index, slideCount = spec.slideCount, lazyLoad = spec.lazyLoad, currentSlide = spec.currentSlide, centerMode = spec.centerMode, slidesToScroll = spec.slidesToScroll, slidesToShow = spec.slidesToShow, useCSS = spec.useCSS;
+      var waitForAnimate = spec.waitForAnimate, animating = spec.animating, fade = spec.fade, infinite = spec.infinite, index2 = spec.index, slideCount = spec.slideCount, lazyLoad = spec.lazyLoad, currentSlide = spec.currentSlide, centerMode = spec.centerMode, slidesToScroll = spec.slidesToScroll, slidesToShow = spec.slidesToShow, useCSS = spec.useCSS;
       var lazyLoadedList = spec.lazyLoadedList;
       if (waitForAnimate && animating)
         return {};
-      var animationSlide = index3, finalSlide, animationLeft, finalLeft;
+      var animationSlide = index2, finalSlide, animationLeft, finalLeft;
       var state = {}, nextState = {};
-      var targetSlide = infinite ? index3 : clamp(index3, 0, slideCount - 1);
+      var targetSlide = infinite ? index2 : clamp(index2, 0, slideCount - 1);
       if (fade) {
-        if (!infinite && (index3 < 0 || index3 >= slideCount))
+        if (!infinite && (index2 < 0 || index2 >= slideCount))
           return {};
-        if (index3 < 0) {
-          animationSlide = index3 + slideCount;
-        } else if (index3 >= slideCount) {
-          animationSlide = index3 - slideCount;
+        if (index2 < 0) {
+          animationSlide = index2 + slideCount;
+        } else if (index2 >= slideCount) {
+          animationSlide = index2 - slideCount;
         }
         if (lazyLoad && lazyLoadedList.indexOf(animationSlide) < 0) {
           lazyLoadedList = lazyLoadedList.concat(animationSlide);
@@ -738,21 +736,21 @@ var require_innerSliderUtils = __commonJS({
       return indexes;
     };
     exports.getNavigableIndexes = getNavigableIndexes;
-    var checkNavigable = function checkNavigable2(spec, index3) {
+    var checkNavigable = function checkNavigable2(spec, index2) {
       var navigables = getNavigableIndexes(spec);
       var prevNavigable = 0;
-      if (index3 > navigables[navigables.length - 1]) {
-        index3 = navigables[navigables.length - 1];
+      if (index2 > navigables[navigables.length - 1]) {
+        index2 = navigables[navigables.length - 1];
       } else {
         for (var n in navigables) {
-          if (index3 < navigables[n]) {
-            index3 = prevNavigable;
+          if (index2 < navigables[n]) {
+            index2 = prevNavigable;
             break;
           }
           prevNavigable = navigables[n];
         }
       }
-      return index3;
+      return index2;
     };
     exports.checkNavigable = checkNavigable;
     var getSlideCount = function getSlideCount2(spec) {
@@ -1141,21 +1139,21 @@ var require_track = __commonJS({
     }
     var getSlideClasses = function getSlideClasses2(spec) {
       var slickActive, slickCenter, slickCloned;
-      var centerOffset, index3;
+      var centerOffset, index2;
       if (spec.rtl) {
-        index3 = spec.slideCount - 1 - spec.index;
+        index2 = spec.slideCount - 1 - spec.index;
       } else {
-        index3 = spec.index;
+        index2 = spec.index;
       }
-      slickCloned = index3 < 0 || index3 >= spec.slideCount;
+      slickCloned = index2 < 0 || index2 >= spec.slideCount;
       if (spec.centerMode) {
         centerOffset = Math.floor(spec.slidesToShow / 2);
-        slickCenter = (index3 - spec.currentSlide) % spec.slideCount === 0;
-        if (index3 > spec.currentSlide - centerOffset - 1 && index3 <= spec.currentSlide + centerOffset) {
+        slickCenter = (index2 - spec.currentSlide) % spec.slideCount === 0;
+        if (index2 > spec.currentSlide - centerOffset - 1 && index2 <= spec.currentSlide + centerOffset) {
           slickActive = true;
         }
       } else {
-        slickActive = spec.currentSlide <= index3 && index3 < spec.currentSlide + spec.slidesToShow;
+        slickActive = spec.currentSlide <= index2 && index2 < spec.currentSlide + spec.slidesToShow;
       }
       var focusedSlide;
       if (spec.targetSlide < 0) {
@@ -1165,7 +1163,7 @@ var require_track = __commonJS({
       } else {
         focusedSlide = spec.targetSlide;
       }
-      var slickCurrent = index3 === focusedSlide;
+      var slickCurrent = index2 === focusedSlide;
       return {
         "slick-slide": true,
         "slick-active": slickActive,
@@ -1204,29 +1202,29 @@ var require_track = __commonJS({
       var childrenCount = _react["default"].Children.count(spec.children);
       var startIndex = (0, _innerSliderUtils.lazyStartIndex)(spec);
       var endIndex = (0, _innerSliderUtils.lazyEndIndex)(spec);
-      _react["default"].Children.forEach(spec.children, function(elem, index3) {
+      _react["default"].Children.forEach(spec.children, function(elem, index2) {
         var child;
         var childOnClickOptions = {
           message: "children",
-          index: index3,
+          index: index2,
           slidesToScroll: spec.slidesToScroll,
           currentSlide: spec.currentSlide
         };
-        if (!spec.lazyLoad || spec.lazyLoad && spec.lazyLoadedList.indexOf(index3) >= 0) {
+        if (!spec.lazyLoad || spec.lazyLoad && spec.lazyLoadedList.indexOf(index2) >= 0) {
           child = elem;
         } else {
           child = /* @__PURE__ */ _react["default"].createElement("div", null);
         }
         var childStyle = getSlideStyle(_objectSpread(_objectSpread({}, spec), {}, {
-          index: index3
+          index: index2
         }));
         var slideClass = child.props.className || "";
         var slideClasses = getSlideClasses(_objectSpread(_objectSpread({}, spec), {}, {
-          index: index3
+          index: index2
         }));
         slides.push(/* @__PURE__ */ _react["default"].cloneElement(child, {
-          key: "original" + getKey(child, index3),
-          "data-index": index3,
+          key: "original" + getKey(child, index2),
+          "data-index": index2,
           className: (0, _classnames["default"])(slideClasses, slideClass),
           tabIndex: "-1",
           "aria-hidden": !slideClasses["slick-active"],
@@ -1241,7 +1239,7 @@ var require_track = __commonJS({
           }
         }));
         if (spec.infinite && spec.fade === false) {
-          var preCloneNo = childrenCount - index3;
+          var preCloneNo = childrenCount - index2;
           if (preCloneNo <= (0, _innerSliderUtils.getPreClones)(spec) && childrenCount !== spec.slidesToShow) {
             key = -preCloneNo;
             if (key >= startIndex) {
@@ -1266,7 +1264,7 @@ var require_track = __commonJS({
             }));
           }
           if (childrenCount !== spec.slidesToShow) {
-            key = childrenCount + index3;
+            key = childrenCount + index2;
             if (key < endIndex) {
               child = elem;
             }
@@ -1945,9 +1943,9 @@ var init_ResizeObserver_es = __esm({
       }
       function getIndex(arr, key) {
         var result = -1;
-        arr.some(function(entry, index3) {
+        arr.some(function(entry, index2) {
           if (entry[0] === key) {
-            result = index3;
+            result = index2;
             return true;
           }
           return false;
@@ -1966,23 +1964,23 @@ var init_ResizeObserver_es = __esm({
           configurable: true
         });
         class_1.prototype.get = function(key) {
-          var index3 = getIndex(this.__entries__, key);
-          var entry = this.__entries__[index3];
+          var index2 = getIndex(this.__entries__, key);
+          var entry = this.__entries__[index2];
           return entry && entry[1];
         };
         class_1.prototype.set = function(key, value) {
-          var index3 = getIndex(this.__entries__, key);
-          if (~index3) {
-            this.__entries__[index3][1] = value;
+          var index2 = getIndex(this.__entries__, key);
+          if (~index2) {
+            this.__entries__[index2][1] = value;
           } else {
             this.__entries__.push([key, value]);
           }
         };
         class_1.prototype.delete = function(key) {
           var entries = this.__entries__;
-          var index3 = getIndex(entries, key);
-          if (~index3) {
-            entries.splice(index3, 1);
+          var index2 = getIndex(entries, key);
+          if (~index2) {
+            entries.splice(index2, 1);
           }
         };
         class_1.prototype.has = function(key) {
@@ -2049,9 +2047,9 @@ var init_ResizeObserver_es = __esm({
       };
       ResizeObserverController2.prototype.removeObserver = function(observer) {
         var observers2 = this.observers_;
-        var index3 = observers2.indexOf(observer);
-        if (~index3) {
-          observers2.splice(index3, 1);
+        var index2 = observers2.indexOf(observer);
+        if (~index2) {
+          observers2.splice(index2, 1);
         }
         if (!observers2.length && this.connected_) {
           this.disconnect_();
@@ -2749,9 +2747,9 @@ var require_inner_slider = __commonJS({
         _defineProperty(_assertThisInitialized(_this), "progressiveLazyLoad", function() {
           var slidesToLoad = [];
           var spec = _objectSpread(_objectSpread({}, _this.props), _this.state);
-          for (var index3 = _this.state.currentSlide; index3 < _this.state.slideCount + (0, _innerSliderUtils.getPostClones)(spec); index3++) {
-            if (_this.state.lazyLoadedList.indexOf(index3) < 0) {
-              slidesToLoad.push(index3);
+          for (var index2 = _this.state.currentSlide; index2 < _this.state.slideCount + (0, _innerSliderUtils.getPostClones)(spec); index2++) {
+            if (_this.state.lazyLoadedList.indexOf(index2) < 0) {
+              slidesToLoad.push(index2);
               break;
             }
           }
@@ -2777,12 +2775,12 @@ var require_inner_slider = __commonJS({
             }
           }
         });
-        _defineProperty(_assertThisInitialized(_this), "slideHandler", function(index3) {
+        _defineProperty(_assertThisInitialized(_this), "slideHandler", function(index2) {
           var dontAnimate = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : false;
           var _this$props = _this.props, asNavFor = _this$props.asNavFor, beforeChange = _this$props.beforeChange, onLazyLoad = _this$props.onLazyLoad, speed = _this$props.speed, afterChange = _this$props.afterChange;
           var currentSlide = _this.state.currentSlide;
           var _slideHandler = (0, _innerSliderUtils.slideHandler)(_objectSpread(_objectSpread(_objectSpread({
-            index: index3
+            index: index2
           }, _this.props), _this.state), {}, {
             trackRef: _this.track,
             useCSS: _this.props.useCSS && !dontAnimate
@@ -2800,9 +2798,9 @@ var require_inner_slider = __commonJS({
             delete _this.animationEndCallback;
           }
           _this.setState(state, function() {
-            if (asNavFor && _this.asNavForIndex !== index3) {
-              _this.asNavForIndex = index3;
-              asNavFor.innerSlider.slideHandler(index3);
+            if (asNavFor && _this.asNavForIndex !== index2) {
+              _this.asNavForIndex = index2;
+              asNavFor.innerSlider.slideHandler(index2);
             }
             if (!nextState)
               return;
@@ -3163,7 +3161,7 @@ var require_json2mq = __commonJS({
     var obj2mq = function(obj) {
       var mq = "";
       var features = Object.keys(obj);
-      features.forEach(function(feature, index3) {
+      features.forEach(function(feature, index2) {
         var value = obj[feature];
         feature = camel2hyphen(feature);
         if (isDimension(feature) && typeof value === "number") {
@@ -3176,7 +3174,7 @@ var require_json2mq = __commonJS({
         } else {
           mq += "(" + feature + ": " + value + ")";
         }
-        if (index3 < features.length - 1) {
+        if (index2 < features.length - 1) {
           mq += " and ";
         }
       });
@@ -3188,9 +3186,9 @@ var require_json2mq = __commonJS({
         return query;
       }
       if (query instanceof Array) {
-        query.forEach(function(q, index3) {
+        query.forEach(function(q, index2) {
           mq += obj2mq(q);
-          if (index3 < query.length - 1) {
+          if (index2 < query.length - 1) {
             mq += ", ";
           }
         });
@@ -3608,12 +3606,12 @@ var require_slider = __commonJS({
       return obj;
     }
     var enquire = (0, _innerSliderUtils.canUseDOM)() && require_src();
-    var Slider2 = /* @__PURE__ */ function(_React$Component) {
-      _inherits(Slider3, _React$Component);
-      var _super = _createSuper(Slider3);
-      function Slider3(props) {
+    var Slider = /* @__PURE__ */ function(_React$Component) {
+      _inherits(Slider2, _React$Component);
+      var _super = _createSuper(Slider2);
+      function Slider2(props) {
         var _this;
-        _classCallCheck(this, Slider3);
+        _classCallCheck(this, Slider2);
         _this = _super.call(this, props);
         _defineProperty(_assertThisInitialized(_this), "innerSliderRefHandler", function(ref) {
           return _this.innerSlider = ref;
@@ -3640,7 +3638,7 @@ var require_slider = __commonJS({
         _this._responsiveMediaHandlers = [];
         return _this;
       }
-      _createClass(Slider3, [{
+      _createClass(Slider2, [{
         key: "media",
         value: function media(query, handler) {
           enquire.register(query, handler);
@@ -3660,16 +3658,16 @@ var require_slider = __commonJS({
             breakpoints.sort(function(x, y) {
               return x - y;
             });
-            breakpoints.forEach(function(breakpoint, index3) {
+            breakpoints.forEach(function(breakpoint, index2) {
               var bQuery;
-              if (index3 === 0) {
+              if (index2 === 0) {
                 bQuery = (0, _json2mq["default"])({
                   minWidth: 0,
                   maxWidth: breakpoint
                 });
               } else {
                 bQuery = (0, _json2mq["default"])({
-                  minWidth: breakpoints[index3 - 1] + 1,
+                  minWidth: breakpoints[index2 - 1] + 1,
                   maxWidth: breakpoint
                 });
               }
@@ -3789,9 +3787,9 @@ var require_slider = __commonJS({
           }, settings), newChildren);
         }
       }]);
-      return Slider3;
+      return Slider2;
     }(_react["default"].Component);
-    exports["default"] = Slider2;
+    exports["default"] = Slider;
   }
 });
 
@@ -3812,105 +3810,7 @@ var require_lib = __commonJS({
   }
 });
 
-// app/routes/nos-formules/index.jsx
-var import_react_slick = __toESM(require_lib());
-var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
-var index2 = () => {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "movingItemsCarousel", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(SliderComp, {}, void 0, false, {
-    fileName: "app/routes/nos-formules/index.jsx",
-    lineNumber: 5,
-    columnNumber: 5
-  }, this) }, void 0, false, {
-    fileName: "app/routes/nos-formules/index.jsx",
-    lineNumber: 4,
-    columnNumber: 11
-  }, this);
-};
-var nos_formules_default = index2;
-var SliderComp = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    arrows: false,
-    speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 5e3,
-    cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          dots: true,
-          infinite: true,
-          arrows: false,
-          speed: 500,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 5e3,
-          cssEase: "linear"
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
-  const data = [
-    { id: 1, title: "Artiste et creatif", image: "https://www.degandpartners.com/wp-content/uploads/2021/04/artist-80x82.png", link: "http://www.art-consult.be/" },
-    { id: 2, title: "Association Culturelle", image: "https://www.degandpartners.com/wp-content/uploads/2021/04/asso-cul-80x84.png", link: "http://www.art-consult.be/" },
-    { id: 3, title: "Medecin", image: "https://www.degandpartners.com/wp-content/uploads/2021/03/ste\u0301thoscope@4x-80x97.png", link: "http://comptabilitemedecin.be/" },
-    { id: 4, title: "Dentiste", image: "https://www.degandpartners.com/wp-content/uploads/2021/03/dent@4x-80x86.png", link: "http://www.comptabilitedentiste.be/" },
-    { id: 5, title: "Veterinaire", image: "https://www.degandpartners.com/wp-content/uploads/2021/03/pets_2@4x-80x76.png", link: "http://www.comptabiliteveterinaire.be/" },
-    { id: 6, title: "Consultant", image: "https://www.degandpartners.com/wp-content/uploads/2022/01/consultant-icon-80x80.png", link: "https://www.comptabiliteconsultant.be/" },
-    { id: 7, title: "Avocat", image: "https://www.degandpartners.com/wp-content/uploads/2022/01/avocats-icon-80x89.png", link: "http://comptabiliteavocat.be/" }
-  ];
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react_slick.default, { ...settings, children: data.map((item) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "movingItem", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: item.image, alt: item.title, style: { width: 40, height: 40 } }, void 0, false, {
-      fileName: "app/routes/nos-formules/index.jsx",
-      lineNumber: 69,
-      columnNumber: 11
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { style: { fontSize: 18, fontFamily: "Poppins", textAlign: "center" }, children: item.title }, void 0, false, {
-      fileName: "app/routes/nos-formules/index.jsx",
-      lineNumber: 70,
-      columnNumber: 11
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { className: "item-link-redirect", href: item.link, children: "en savoir plus" }, void 0, false, {
-      fileName: "app/routes/nos-formules/index.jsx",
-      lineNumber: 71,
-      columnNumber: 11
-    }, this)
-  ] }, item.id, true, {
-    fileName: "app/routes/nos-formules/index.jsx",
-    lineNumber: 68,
-    columnNumber: 9
-  }, this)) }, void 0, false, {
-    fileName: "app/routes/nos-formules/index.jsx",
-    lineNumber: 66,
-    columnNumber: 5
-  }, this) }, void 0, false, {
-    fileName: "app/routes/nos-formules/index.jsx",
-    lineNumber: 65,
-    columnNumber: 1
-  }, this);
-};
-
 export {
-  nos_formules_default,
-  SliderComp
+  require_lib
 };
-//# sourceMappingURL=/build/_shared/chunk-SLXK3KM4.js.map
+//# sourceMappingURL=/build/_shared/chunk-IO6PW3G7.js.map
